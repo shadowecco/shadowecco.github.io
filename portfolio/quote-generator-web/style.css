@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+  background-image: url("");
+  color: #000;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.github-button {
+  vertical-align: text-top;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.quote-container {
+  width: auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quote-text {
+  font-size: 2.75rem;
+}
+
+.long-quote {
+  font-size: 2rem;
+}
+
+.fa-quote-left {
+  font-size: 4rem;
+}
+
+.quote-author {
+  margin: 15px 0;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background: #333;
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+.twitter-button:hover {
+  color: #38a1f3;
+}
+
+.fa-twitter {
+  font-size: 1.5rem; 
+}
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5%;
+    font-family: 'Boogaloo', cursive;
+    background-color: #000;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.footer-links {
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    z-index: 5;
+}
+
+.footer-links a {
+    color: #EEEEEE;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #EEEEEE;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Media Query: Tablet or Smaller */
+@media screen and (max-width: 1000px) {
+  .quote-container {
+    margin: auto 10px;
+  }
+
+  .quote-text {
+    font-size: 2.5rem;
+  }
+}

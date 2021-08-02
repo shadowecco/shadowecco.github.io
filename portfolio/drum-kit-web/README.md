@@ -6,8 +6,6 @@
 
 Playing Drum noises with the button or keyboard.
 
-Created Visual Studio Code with:
-
 - HTML
 - CSS/Sass*
 - Javascript

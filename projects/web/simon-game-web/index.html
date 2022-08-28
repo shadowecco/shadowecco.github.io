@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Simon Game</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.ico" />
+
+    <!-- Font Awesome Icons 5.15.4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../../css/styles.css" />
+
+    <!-- Specific Stylesheet -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <!-- JQuery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="../../../js/main.js"></script>
+    <script type="text/javascript" src="../../../js/buttons.js"></script>
+
+    <!-- Specific Javascript -->
+    <script type="text/javascript" src="./project.js"></script>
+  </head>
+
+  <body>
+    <!-- Github Button -->
+    <button
+      id="projgit-but projectgit"
+      class="projectgit"
+      onclick="gitFunction()"
+    >
+      <i class="fab fa-github"></i> View Project Code at GitHub
+    </button>
+
+    <!-- Header  -->
+    <h1 id="level-title">Press A Key to Start</h1>
+
+    <!-- Simon Game Container -->
+    <div class="game-container">
+      <!-- Row 1 -->
+      <div class="row">
+        <div type="button" id="green" class="simon-btn green"></div>
+        <div type="button" id="red" class="simon-btn red"></div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="row">
+        <div type="button" id="yellow" class="simon-btn yellow"></div>
+        <div type="button" id="blue" class="simon-btn blue"></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer project-footer">
+      &nbsp
+      <!-- Contacts -->
+      <div id="contacts" class="contacts project-contacts"></div>
+
+      <!-- Copyright -->
+      <div id="copyright" class="copyright">Copyright</div>
+
+      <!-- Credits-->
+      <div class="credits project-credits">Credits</div>
+
+      <!-- Powered by -->
+      <div class="powered">
+        &#128029; Powered by chocolate, tea and coding &#128029;
+      </div>
+      &nbsp
+    </footer>
+  </body>
+</html>

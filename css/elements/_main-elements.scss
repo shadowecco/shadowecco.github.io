@@ -1,0 +1,112 @@
+/* Body */
+
+@mixin html() {
+  margin: 0 auto;
+  padding: 0;
+}
+
+@mixin body() {
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* Header */
+
+@mixin header() {
+  @include padding-allround(50px, 100px, 50px, 100px);
+  background-color: $skyblue;
+  text-align: center;
+  font-family: $honeybeereg;
+}
+
+/* Logos */
+
+@mixin logo() {
+  @include padding-allround(50px, 100px, 50px, 100px);
+  @include maxheightwidth(250px, 250px);
+  @include heightwidth(auto, auto);
+}
+
+@mixin me-logo() {
+  @include padding-allround(10px, 10px, 10px, 10px);
+  @include maxheightwidth(175px, 175px);
+  @include heightwidth(auto, auto);
+}
+
+/* Gallery */
+
+@mixin gallery-grid() {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+@mixin cert-grid() {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+@mixin gallery-card() {
+  border-radius: 3.2px;
+  width: 250px;
+}
+
+@mixin cert-card() {
+  border-radius: 10px;
+  width: 290px;
+}
+
+@mixin gallery-card-image() {
+  height: 200px;
+  width: 100%;
+}
+
+@mixin gallery-img() {
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin gallery-button() {
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+/* Skills and Hobbies */
+
+@mixin rows() {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin hobby-rows() {
+  @include padrl(300px, 300px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+@mixin box() {
+  text-align: center;
+  display: inline-block;
+}
+
+/* Footer */
+
+@mixin page-footer() {
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@mixin contact-logo() {
+  @include padrl(12px, 12px);
+  font-size: 30px;
+}

@@ -1,0 +1,99 @@
+/* SASS Import Files */
+
+@import "../../../../css/_elements.scss";
+
+/* Body */
+
+body {
+  @include body();
+  color: $night;
+  text-align: center;
+  font-family: $ubuntu;
+  background-image: linear-gradient(
+    $african-red,
+    $african-yellow,
+    $african-green
+  );
+}
+
+/* Git Button */
+
+.projectgit {
+  @include projgitbut();
+  @include gitbutcol($african-yellow, $african-yellow);
+}
+
+.projectgit:hover {
+  @include projgithover();
+  @include gitbutcol($light, $light);
+}
+
+/* Text Area */
+
+.main {
+  @include padding-allround(15px, 50px, 15px, 50px);
+  border-radius: 5px;
+}
+
+.title,
+.heading {
+  font-family: $ubuntu;
+  font-style: bold;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.text {
+  @include justify();
+  @include padrl(200px, 200px);
+}
+
+/* Images */
+
+.img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.img-div {
+  padding: 10px;
+  margin: 0;
+}
+
+.img-caption {
+  @include margin-allround(5px, 0px, 5px, 0px);
+  font-weight: bold;
+}
+
+/* Links */
+
+a,
+a:visited {
+  color: $african-yellow;
+  text-decoration: none;
+}
+
+/* Footer */
+
+.contact-logo {
+  @include contact-logo();
+}
+
+.project-footer {
+  @include page-footer();
+  @include footcol($african-green, $ubuntu, $african-yellow);
+  @include linx(
+    $african-yellow,
+    $african-yellow,
+    $african-yellow,
+    $african-yellow
+  );
+}

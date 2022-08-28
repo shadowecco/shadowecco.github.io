@@ -1,0 +1,109 @@
+/* SASS Import Files */
+
+@import "../../../../css/_elements.scss";
+
+$images: "../assets/images";
+
+/* Body */
+
+html {
+  @include html();
+}
+
+body {
+  @include body();
+  background-color: $space-blue;
+  color: $calamansi;
+  text-align: center;
+}
+
+/* Git Button */
+
+.projectgit {
+  @include projgitbut();
+  @include gitbutcol($calamansi, $calamansi);
+}
+
+.projectgit:hover {
+  @include projgithover();
+  @include gitbutcol($light, $light);
+}
+
+#level-title {
+  @include martb(50px, 50px);
+  font-family: $presstart;
+  font-size: 32px;
+}
+
+/* Game Container */
+
+.game-container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.row {
+  margin-bottom: 0px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* Simon Buttons */
+
+.simon-btn {
+  @include heightwidth(200px, 200px);
+  @include borall(solid, 10px, $night);
+  margin: 25px;
+  display: inline-block;
+  border-radius: 20%;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px $light;
+  background-color: $silver;
+}
+
+/* Links */
+
+a,
+a:visited {
+  color: $night;
+  text-decoration: none;
+}
+
+/* Footer */
+
+.contact-logo {
+  @include contact-logo();
+}
+
+.project-footer {
+  @include page-footer();
+  @include linx($calamansi, $calamansi, $calamansi, $calamansi);
+  font-family: $architect;
+}
+
+.credits a,
+a:visited {
+  color: $calamansi;
+}

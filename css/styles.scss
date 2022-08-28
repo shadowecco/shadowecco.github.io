@@ -1,0 +1,312 @@
+/* SASS Import Files */
+
+@import "../css/_elements.scss";
+
+/* Body */
+
+html {
+  @include html();
+}
+
+body {
+  @include body();
+}
+
+/* Nav Bar */
+
+.page-nav {
+  @include padtb(10px, 10px);
+  background-color: $skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  text-decoration: none;
+  width: 100%;
+}
+
+.brand,
+.nav-link,
+.link {
+  @include link();
+}
+
+.brand-image {
+  @include heightwidth(30px, 30px);
+}
+
+.brand {
+  padding-left: 50px;
+  font-family: $honeybee;
+  font-size: 25px;
+}
+
+.nav-links {
+  @include linx($darkblue, $darkblue, $darkblue, $darkblue);
+  @include texttype($ubuntu, $darkblue, 18px, bold);
+  padding-right: 50px;
+}
+
+/* Header */
+
+.header {
+  @include padding-allround(50px, 100px, 50px, 100px);
+  background-color: $skyblue;
+  text-align: center;
+  font-family: $honeybeereg;
+  background: url("../../assets/images/hello-spring.jpg") top left no-repeat;
+  background-size: contain;
+  background-size: 100%;
+}
+
+.home-header {
+  line-height: 1em;
+}
+
+.header-title {
+  padding-top: 60px;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.header-subtitle {
+  padding-top: 50px;
+  font-size: 65px;
+}
+
+.gallery-header-title {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.gallery-header-subtitle {
+  font-size: 40px;
+  line-height: 1em;
+}
+
+/* Logos */
+
+.logos-section,
+.welcome-section,
+.skills-section,
+.hobbies-section,
+.cert-title-section,
+.gallery-section,
+.page-line {
+  text-align: center;
+}
+
+.logo {
+  @include logo();
+}
+
+.me-logo {
+  @include me-logo();
+}
+
+.pline {
+  @include padding-allround(10px, 10px, 10px, 10px);
+  @include maxheightwidth(300px, 300px);
+  @include heightwidth(auto, auto);
+}
+
+/* Intro */
+
+.welcome-title,
+.cert-title,
+.skills-title,
+.hobbies-title,
+.gallery-samp-title {
+  @include texttype($honeybeereg, $night, 50px, bold);
+}
+
+.welcome-text,
+.cert-section {
+  @include text-area();
+  @include justify();
+}
+
+.welcome-text {
+  @include marrl(250px, 250px);
+}
+
+.gallery-section,
+.cert-section {
+  @include marrl(150px, 150px);
+}
+
+.gallery-section,
+.cert-section,
+.cert-link,
+.welcome-text {
+  @include texttype($ubuntu, $night, 18px, normal);
+}
+
+/* Gallery and Certs*/
+
+.gallery-header,
+.gallery-subtitle,
+.gallery-content {
+  font-family: $architect;
+}
+
+.gallery-title {
+  @include texttype($architect, $night, 50px, bold);
+}
+
+.gallery-grid {
+  @include gallery-grid();
+}
+
+.gallery-card {
+  @include gallery-card();
+}
+
+.gallery-card-image {
+  @include gallery-card-image();
+}
+
+.cert-grid {
+  @include cert-grid();
+}
+
+.cert-card {
+  @include cert-card();
+  @include borall(solid, 1px, $silver);
+}
+
+.cert-card-image {
+  @include heightwidth(200px, 200px);
+  padding-top: 10px;
+}
+
+.gallery-img,
+.cert-img {
+  @include gallery-img();
+}
+
+.gallery-content {
+  padding: 15px;
+}
+
+.gallery-card,
+.gallery-btn,
+.project-btn,
+.codepen-btn {
+  @include borall(solid, 1px, $night);
+}
+
+.gallery-btn {
+  @include gallery-btn();
+}
+
+.project-btn,
+.gitcode-btn {
+  color: $light;
+}
+
+.gitcode-btn {
+  background-color: $github;
+}
+
+//Skills Badges
+
+.fa-skill-badge {
+  @include padding-allround(0, 10px, 0px, 10px);
+  color: $darkblue;
+  font-size: 60px;
+}
+
+.fa-small-skill-badge {
+  @include padding-allround(0, 1px, 0px, 1px);
+  color: $darkblue;
+  font-size: 40px;
+}
+
+.african-red {
+  color: $african-red;
+}
+
+.heart {
+  color: $heart;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+/* Skills and Hobbies */
+
+.skills-rows {
+  @include padding-allround(10px, 250px, 10px, 250px);
+}
+
+.skills-rows,
+.skills-progress-text {
+  @include rows();
+}
+
+.skills-row-1,
+.skills-row-2 {
+  width: 45%;
+}
+
+.progress-bar {
+  background-color: $darkblue;
+  height: 20px;
+}
+
+.skills-progress-text {
+  @include texttype($ubuntu, $night, 18px, normal);
+}
+
+.hobby-title {
+  @include texttype($ubuntu, $night, 15px, normal);
+}
+
+.hobbies-row {
+  @include hobby-rows();
+}
+
+.hobby-box {
+  @include box();
+  color: $darkblue;
+}
+
+.hobby {
+  @include maxheightwidth(150px, 150px);
+  @include heightwidth(auto, auto);
+}
+
+/* Footer */
+
+.site-footer {
+  @include page-footer();
+  @include linx($darkblue, $darkblue, $darkblue, $darkblue);
+  @include footcol($skyblue, $summerbee, $darkblue);
+}
+
+.contact-logo {
+  @include contact-logo();
+}
+
+.contacts {
+  margin-bottom: 10px;
+}
+
+.credits,
+.copyright,
+.powered {
+  margin: 0;
+  @include muted-text;
+  font-size: 15px;
+}

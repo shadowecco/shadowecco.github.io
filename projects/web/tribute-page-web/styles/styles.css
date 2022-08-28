@@ -1,0 +1,294 @@
+/* SASS Import Files */ /* Body */
+/* Header */
+/* Logos */
+/* Gallery */
+/* Skills and Hobbies */
+/* Footer */
+/* Padding Mixins */
+/* Margin Mixins */
+/* Height/Width */
+/* Link */
+/* Header */
+/* Text */
+/* Containers */
+/* Glass */
+/* Footer */
+/* Borders */
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+/* Imported Fonts */
+/* HoneyBee-Regular */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@font-face {
+  font-family: "HoneyBee Regular";
+  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Honey https://www.creativefabrica.com/ref/182378/ */
+@font-face {
+  font-family: "Honey";
+  src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Summerbee */
+@font-face {
+  font-family: "Summerbee";
+  src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ladybug Love Regular";
+  src: url("../../../assets/fonts/ladybug-love/ladybug-love-demo.regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Wakanda";
+  src: url("../../../assets/fonts/Wakanda-Font/Wakanda.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Google Fonts */
+/* Imported Fonts */
+/* HoneyBee-Regular */
+@font-face {
+  font-family: "HoneyBee Regular";
+  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Honey https://www.creativefabrica.com/ref/182378/ */
+@font-face {
+  font-family: "Honey";
+  src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Summerbee */
+@font-face {
+  font-family: "Summerbee";
+  src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ladybug Love Regular";
+  src: url("../../../assets/fonts/ladybug-love/ladybug-love-demo.regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Wakanda";
+  src: url("../../../assets/fonts/Wakanda-Font/Wakanda.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Padding Mixins */
+/* Margin Mixins */
+/* Height/Width */
+/* Link */
+/* Header */
+/* Text */
+/* Containers */
+/* Glass */
+/* Footer */
+/* Borders */
+/* Button */
+.button-link {
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Github Button */
+/* Google Fonts */
+/* Imported Fonts */
+/* HoneyBee-Regular */
+@font-face {
+  font-family: "HoneyBee Regular";
+  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Honey https://www.creativefabrica.com/ref/182378/ */
+@font-face {
+  font-family: "Honey";
+  src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Summerbee */
+@font-face {
+  font-family: "Summerbee";
+  src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ladybug Love Regular";
+  src: url("../../../assets/fonts/ladybug-love/ladybug-love-demo.regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Wakanda";
+  src: url("../../../assets/fonts/Wakanda-Font/Wakanda.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Projects Fonts and Colours */
+/* Body */
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  color: black;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  background-image: linear-gradient(#e03c31, #ffb81c, #007749);
+}
+
+/* Git Button */
+.projectgit {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  background-color: #376c77;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #ffb81c;
+  border-color: #ffb81c;
+}
+
+.projectgit:hover {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  background-color: #376c77;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #2196f3;
+  font-size: 18px;
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  border-color: white;
+}
+
+/* Text Area */
+.main {
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  border-radius: 5px;
+}
+
+.title,
+.heading {
+  font-family: "Ubuntu", sans-serif;
+  font-style: bold;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.text {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+/* Images */
+.img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.img-div {
+  padding: 10px;
+  margin: 0;
+}
+
+.img-caption {
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+/* Links */
+a,
+a:visited {
+  color: #ffb81c;
+  text-decoration: none;
+}
+
+/* Footer */
+.contact-logo {
+  padding-right: 12px;
+  padding-left: 12px;
+  font-size: 30px;
+}
+
+.project-footer {
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #007749;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffb81c;
+}
+.project-footer a {
+  color: #ffb81c;
+}
+.project-footer a:visited {
+  color: #ffb81c;
+}
+.project-footer a:hover {
+  color: #ffb81c;
+}
+.project-footer a:active {
+  color: #ffb81c;
+}/*# sourceMappingURL=styles.css.map */

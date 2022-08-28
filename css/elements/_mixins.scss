@@ -1,0 +1,170 @@
+/* Padding Mixins */
+
+@mixin padding-allround($ptop, $prig, $pbot, $pleft) {
+  padding-top: $ptop;
+  padding-right: $prig;
+  padding-bottom: $pbot;
+  padding-left: $pleft;
+}
+
+@mixin padtb($ptop, $pbot) {
+  padding-top: $ptop;
+  padding-bottom: $pbot;
+}
+
+@mixin padrl($prig, $pleft) {
+  padding-right: $prig;
+  padding-left: $pleft;
+}
+
+/* Margin Mixins */
+
+@mixin margin-allround($martop, $marrig, $marbot, $marleft) {
+  margin-top: $martop;
+  margin-right: $marrig;
+  margin-bottom: $marbot;
+  margin-left: $marleft;
+}
+
+@mixin martb($mtop, $mbot) {
+  margin-top: $mtop;
+  margin-bottom: $mbot;
+}
+
+@mixin marrl($mrig, $mleft) {
+  margin-right: $mrig;
+  margin-left: $mleft;
+}
+
+/* Height/Width */
+
+@mixin heightwidth($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin maxheightwidth($maxheight, $maxwidth) {
+  max-height: $maxheight;
+  max-width: $maxwidth;
+}
+
+/* Link */
+
+@mixin link() {
+  @include padrl(25px, 25px);
+  text-decoration: none;
+  text-align: center;
+}
+
+@mixin linx($link, $visit, $hover, $active) {
+  a {
+    color: $link;
+
+    &:visited {
+      color: $visit;
+    }
+
+    &:hover {
+      color: $hover;
+    }
+
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+/* Header */
+
+@mixin header-text-padding() {
+  @include paddrl(100px, 100px);
+}
+
+/* Text */
+
+@mixin justify() {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@mixin text-area() {
+  @include padding-allround(20px, 50px, 20px, 50px);
+}
+
+@mixin muted-text() {
+  opacity: 0.7;
+}
+
+@mixin texttype($fonttype, $fontcol, $fontsize, $weight) {
+  font-family: $fonttype;
+  color: $fontcol;
+  font-size: $fontsize;
+  font-weight: $weight;
+}
+
+/* Containers */
+
+@mixin body-container() {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin form-container() {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+}
+
+/* Glass */
+
+@mixin glass() {
+  background-color: $grey;
+  backdrop-filter: blur(5px);
+}
+
+/* Footer */
+
+@mixin footcol($bgcol, $fonttype, $fontcol) {
+  background-color: $bgcol;
+  font-family: $fonttype;
+  color: $fontcol;
+}
+
+/* Borders */
+
+@mixin bor-allround($bortop, $borrig, $borbot, $borleft) {
+  margin-top: $bortop;
+  margin-right: $borrig;
+  margin-bottom: $borbot;
+  margin-left: $borleft;
+}
+
+@mixin borwidth($topwid, $rigwid, $botwid, $leftwid) {
+  border-top-width: $topwid;
+  border-right-width: $rigwid;
+  border-bottom-width: $botwid;
+  border-left-width: $leftwid;
+}
+
+@mixin borstyle($borstyle, $borcol) {
+  border-style: $borstyle;
+  border-color: $borcol;
+}
+
+@mixin borwidth($borstyle, $borwid) {
+  border-style: $borstyle;
+  border-width: $borwid;
+}
+
+@mixin borall($borstyle, $borwid, $borcol) {
+  border-style: $borstyle;
+  border-width: $borwid;
+  border-color: $borcol;
+}
+
+@mixin gitbutcol($color, $borcol) {
+  color: $color;
+  border-color: $borcol;
+}

@@ -1,0 +1,67 @@
+@import "../fonts-colours/_colours.scss";
+@import "../fonts-colours/_fonts.scss";
+@import "../elements/_mixins.scss";
+
+/* Button */
+
+@mixin large-button-layout() {
+  @include margin-allround(20px, 100px, 20px, 100px);
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  font-family: $text;
+}
+
+@mixin button-padding() {
+  @include padding-allround(15px, 32px, 15px, 32px);
+}
+
+.button-link {
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Github Button */
+
+@mixin gitbtn() {
+  @include martb(20px, 20px);
+  @include button-padding();
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-family: $gittext;
+}
+
+@mixin gallery-btn() {
+  @include padding-allround(15px, 15px, 15px, 15px);
+  background-color: $darkblue;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+@mixin projgitbut() {
+  @include gallery-btn();
+  @include martb(30px, 30px);
+  @include borwidth(solid, 2px);
+  background-color: transparent;
+  font-size: 18px;
+  font-family: $gittext;
+}
+
+@mixin projgithover() {
+  @include gallery-btn();
+  @include martb(30px, 30px);
+  @include borwidth(solid, 2px);
+  background-color: $github;
+  font-size: 18px;
+  font-family: $gittext;
+}

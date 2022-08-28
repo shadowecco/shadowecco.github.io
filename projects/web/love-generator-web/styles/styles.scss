@@ -1,0 +1,150 @@
+/* SASS Import Files */
+
+@import "../../../../css/_elements.scss";
+
+$images: "../images";
+
+/* Body */
+
+html {
+  @include html();
+}
+
+body {
+  @include body();
+  @include body-container();
+  background-image: url(#{$images}/love-heart-by-jamie-street-unsplash.png);
+  background-size: 110%;
+  font-family: $lovefont;
+  color: $light;
+  font-weight: 700;
+}
+
+/* Git Button */
+
+.projectgit {
+  @include projgitbut();
+  background-color: $heart;
+  @include gitbutcol($offwhite, $offwhite);
+}
+
+.projectgit:hover {
+  @include projgithover();
+  @include gitbutcol($light, $light);
+}
+
+/* Links */
+
+a,
+a:visited {
+  color: $light;
+  text-decoration: none;
+}
+
+/* Love Container */
+
+.love-container {
+  @include padtb(10px, 50px);
+  @include form-container();
+  background: $shinyheart;
+  width: 700px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.subtitle {
+  font-size: 30px;
+}
+
+/* Form*/
+
+.love-form {
+  @include padding-allround(0px, 0px, 20px, 100px);
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 16px;
+}
+
+input[type="text"],
+select {
+  @include borall(solid, 1px, $silver);
+  width: 50%;
+  height: 20px;
+  margin: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  float: left;
+  width: 200px;
+  padding-right: 24px;
+  grid-column: 1 / 2;
+}
+
+button {
+  grid-column: 2 / 3;
+}
+
+/* Name Text Labek */
+
+.name-text {
+  padding-left: 125px;
+  text-align: left;
+}
+
+/* Name Text Area */
+
+input {
+  @include heightwidth(30px, 500px);
+  float: left;
+}
+
+.your-name {
+  margin: 0px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.crush-name {
+  margin: 0px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Love Button */
+
+.love-btn {
+  margin-top: 12px;
+  border-radius: 12px;
+  @include borwidth(solid, 1px);
+  font-size: 30px;
+  background-color: $light;
+  color: $night;
+}
+
+#love-score,
+#love-comment {
+  font-size: 32px;
+  margin-top: 5px;
+}
+
+/* Footer */
+
+.contact-logo {
+  @include contact-logo();
+}
+
+.project-footer {
+  @include page-footer();
+  @include footcol($shinyheart, $lovefont, $offwhite);
+  @include linx($offwhite, $offwhite, $offwhite, $offwhite);
+  position: fixed;
+}
+
+.credits a,
+a:visited {
+  color: $offwhite;
+}

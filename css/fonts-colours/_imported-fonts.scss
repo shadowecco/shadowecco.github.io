@@ -1,0 +1,57 @@
+/* Google Fonts */
+
+//Ubuntu Regular 400
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+//MerryWeather Sans
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+
+//Architects Daughter
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+//Press Start 2P
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* Imported Fonts */
+
+/* HoneyBee-Regular */
+@font-face {
+  font-family: "HoneyBee Regular";
+  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Honey https://www.creativefabrica.com/ref/182378/ */
+@font-face {
+  font-family: "Honey";
+  src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Summerbee */
+@font-face {
+  font-family: "Summerbee";
+  src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Ladybug Love (https://www.1001fonts.com/ladybug-love-demo-font.html)
+@font-face {
+  font-family: "Ladybug Love Regular";
+  src: url("../../../assets/fonts/ladybug-love/ladybug-love-demo.regular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Wakanda Font
+@font-face {
+  font-family: "Wakanda";
+  src: url("../../../assets/fonts/Wakanda-Font/Wakanda.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,85 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Love Generator</title>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.ico" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Generator</title>
 
-    <!-- Font Awesome Icons 5.15.4 -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.ico" />
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="../../../css/styles.css" />
+  <!-- Font Awesome Icons 5.15.4 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    <!-- Specific Stylesheet -->
-    <link rel="stylesheet" href="./styles/styles.css" />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../../../css/styles.css" />
 
-    <!-- JQuery 3.6.0 -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Specific Stylesheet -->
+  <link rel="stylesheet" href="./styles/styles.css" />
 
-    <!-- Main Javascript -->
-    <script type="text/javascript" src="../../../js/main.js"></script>
-    <script type="text/javascript" src="../../../js/buttons.js"></script>
+  <!-- JQuery 3.6.0 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <!-- Specific Javascript -->
-    <script type="text/javascript" src="./project.js"></script>
-  </head>
+  <!-- Main Javascript -->
+  <script type="text/javascript" src="../../../js/main.js"></script>
+  <script type="text/javascript" src="../../../js/buttons.js"></script>
 
-  <body>
-    <!-- Github Button -->
-    <button
-      id="projgit-but projectgit"
-      class="projectgit"
-      onclick="gitFunction()"
-    >
-      <i class="fab fa-github"></i> View Project Code at GitHub
-    </button>
+  <!-- Specific Javascript -->
+  <script type="text/javascript" src="./project.js"></script>
+</head>
 
-    <div class="love-container">
-      <!-- Headers -->
-      <h1 class="title">*** Love Generator ***</h1>
-      <h2 class="subtitle">** Are you and your crush meant to be? **</h2>
+<body>
+  <!-- Github Button -->
+  <button id="projgit-but projectgit" class="projectgit" onclick="gitFunction()">
+    <i class="fab fa-github"></i> View Project Code at GitHub
+  </button>
 
-      <!-- Love form -->
-      <form class="love-form" id="love-form">
-        <label for="your-name" class="your-name">Your Name:</label>
-        <input id="your-name-text" type="text" />
+  <div class="love-container">
+    <!-- Headers -->
+    <h1 class="title">*** Love Generator ***</h1>
+    <h2 class="subtitle">** Are you and your crush meant to be? **</h2>
 
-        <label for="crush-name" class="crush-name">Your Crush's Name:</label>
-        <input id="crush-name-text" type="text" />
-      </form>
+    <!-- Love form -->
+    <form class="love-form" id="love-form">
+      <label for="your-name" class="your-name">Your Name:</label>
+      <input id="your-name-text" type="text" />
 
-      <!-- Love Score and Comment -->
-      <div id="love-score"></div>
-      <div id="love-comment"></div>
+      <label for="crush-name" class="crush-name">Your Crush's Name:</label>
+      <input id="crush-name-text" type="text" />
+    </form>
 
-      <!-- Love Button -->
-      <button id="love-btn" class="love-btn" onclick="addLove()">Press</button>
+    <!-- Love Score and Comment -->
+    <div id="love-score"></div>
+    <div id="love-comment"></div>
+
+    <!-- Love Button -->
+    <button id="love-btn" class="love-btn" onclick="addLove()">Press</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer project-footer">
+    &nbsp
+    <!-- Contacts -->
+    <div id="contacts" class="contacts project-contacts"></div>
+
+    <!-- Copyright -->
+    <div id="copyright" class="copyright">Copyright</div>
+
+    <!-- Credits-->
+    <div class="credits project-credits">Credits</div>
+
+    <!-- Powered by -->
+    <div class="powered">
+      &#128029; Powered by chocolate, tea and coding &#128029;
     </div>
+    &nbsp
+  </footer>
+</body>
 
-    <!-- Footer -->
-    <footer class="footer project-footer">
-      &nbsp
-      <!-- Contacts -->
-      <div id="contacts" class="contacts project-contacts"></div>
-
-      <!-- Copyright -->
-      <div id="copyright" class="copyright">Copyright</div>
-
-      <!-- Credits-->
-      <div class="credits project-credits">Credits</div>
-
-      <!-- Powered by -->
-      <div class="powered">
-        &#128029; Powered by chocolate, tea and coding &#128029;
-      </div>
-      &nbsp
-    </footer>
-  </body>
 </html>

@@ -38,7 +38,6 @@
 @mixin gallery-grid() {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
   padding-top: 20px;
   text-align: center;
 }
@@ -53,7 +52,7 @@
 
 @mixin gallery-card() {
   border-radius: 3.2px;
-  width: 250px;
+  width: 350px;
 }
 
 @mixin cert-card() {

@@ -13,12 +13,12 @@ $(document).ready(function () {
 
   $(".project-credits").html(
     '<a href="' +
-      picloc +
-      '">Image</a> by <a href="' +
-      artloc +
-      '">Jamie Street</a> on <a href="' +
-      siteloc +
-      '">Unsplash</a>'
+    picloc +
+    '">Image</a> by <a href="' +
+    artloc +
+    '">Jamie Street</a> on <a href="' +
+    siteloc +
+    '">Unsplash</a>'
   );
 });
 

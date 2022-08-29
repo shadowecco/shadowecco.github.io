@@ -1,12 +1,12 @@
 $(document).ready(function () {
   //Footer Contacts
   $(".project-contacts").load(
-      "../../../assets/page-elements/main.html #contacts");
+    "../../../assets/page-elements/main.html #contacts");
 
-    //Footer Credits
-    $(".project-credits").remove();
-    
-    
+  //Footer Credits
+  $(".project-credits").remove();
+
+
   var buttonColours = ["red", "blue", "green", "yellow"];
 
   var gamePattern = [];

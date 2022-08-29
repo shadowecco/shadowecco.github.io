@@ -1,49 +1,66 @@
 <!--Gallery-->
 <div id="gallery-section" class="gallery-section">
-    <!-- Title and Subtitles -->
-  
-    <div id="title-section" class="title-section">
-      <h1 class="gallery-title">Web Projects</h1>
-    </div>
-  
-    <div class="gallery-grid">
-  
-      <!-- Chadwick Boseman Tribue Page -->
-  
-      <div class="gallery-card">
-        <div class="gallery-img">
-          <img
-            class="gallery-card-image"
-            src="../assets/images/gallery/web/africa.jpg"
-            alt="Chadwick Boseman Tribute Page"
-          />
-        </div>
-        <div class="gallery-content">
-          <h4>Tribute Page</h4>
-          <p>Tribute page to Chadwick Boseman</p>
-          <p>
-            <span class="fa-small-skill-badge african-red fab fa-html5"></span>
-            <span class="fa-small-skill-badge african-red fab fa-css3-alt"></span>
-          </p>
-          <button id="gallery-btn" class="gallery-btn project-btn" onclick="chadwickprojectFunction()">
-            Project
-          </button>
-          <button id="gallery-btn" class="gallery-btn gitcode-btn" onclick="chadwickgitFunction()">
-            <i class="fab fa-github"></i> Code</button>
-        </div>
+  <!-- Title and Subtitles -->
+  <div id="title-section" class="title-section">
+    <h1 class="gallery-title">Web Projects</h1>
+  </div>
+
+  <div class="gallery-grid">
+
+    <!-- Drum Kit -->
+    <div class="gallery-card">
+      <div class="gallery-img">
+        <img class="gallery-card-image" src="../assets/images/gallery/web/drum-kit.jpg" alt="Gaming" />
       </div>
-  
-      <!-- Love Generator -->
-  
-        <div class="gallery-card">
-            <div class="gallery-img">
-              <img
-              class="gallery-card-image"
-              src="../assets/images/gallery/web/love-heart.png"
-            alt="Love Generator"
-            />
-            </div>
-            <div class="gallery-content">
+      <div class="gallery-content">
+        <h4>Simon</h4>
+
+        <p>Playing a drum kit</p>
+        <p>
+          <span class="fa-small-skill-badge heart red fab fa-html5"></span>
+          <span class="fa-small-skill-badge heart blue fab fa-sass"></span>
+          <span class="fa-small-skill-badge heart green fab fa-js"></span>
+        </p>
+        <button id="gallery-btn" class="gallery-btn project-btn" onclick="drumprojectFunction()">
+          Project
+        </button>
+        <button id="gallery-btn" class="gallery-btn gitcode-btn" onclick="drumgitFunction()">
+          <i class="fab fa-github"></i> Code
+        </button>
+      </div>
+    </div>
+
+
+
+    <!-- Simon Game -->
+    <div class="gallery-card">
+      <div class="gallery-img">
+        <img class="gallery-card-image" src="../assets/images/gallery/web/game-btns.jpg" alt="Gaming" />
+      </div>
+      <div class="gallery-content">
+        <h4>Simon</h4>
+
+        <p>Playing the game "Simon"</p>
+        <p>
+          <span class="fa-small-skill-badge heart red fab fa-html5"></span>
+          <span class="fa-small-skill-badge heart blue fab fa-sass"></span>
+          <span class="fa-small-skill-badge heart green fab fa-js"></span>
+        </p>
+        <button id="gallery-btn" class="gallery-btn project-btn" onclick="simonprojectFunction()">
+          Project
+        </button>
+        <button id="gallery-btn" class="gallery-btn gitcode-btn" onclick="simongitFunction()">
+          <i class="fab fa-github"></i> Code
+        </button>
+      </div>
+    </div>
+
+    <!-- Love Generator -->
+    <div class="gallery-card">
+      <div class="gallery-img">
+        <img class="gallery-card-image" src="../assets/images/gallery/web/love-heart.png" alt="Love Generator" />
+      </div>
+      <div class="gallery-content">
         <h4>Love Generator</h4>
         <p>Generates a love percentage between two inputted names.</p>
         <p>
@@ -51,43 +68,41 @@
           <span class="fa-small-skill-badge heart fab fa-sass"></span>
           <span class="fa-small-skill-badge heart fab fa-js"></span>
         </p>
-          <button id="gallery-btn" class="gallery-btn project-btn" onclick="loveprojectFunction()">
+        <button id="gallery-btn" class="gallery-btn project-btn" onclick="loveprojectFunction()">
           Project
-            </button>
-          <button id="gallery-btn" class="gallery-btn gitcode-btn" onclick="lovegitFunction()">
+        </button>
+        <button id="gallery-btn" class="gallery-btn gitcode-btn" onclick="lovegitFunction()">
           <i class="fab fa-github"></i> Code
-        </div>
+        </button>
       </div>
-  
-      <!-- Simon Game -->
-  
-      <div class="gallery-card">
-        <div class="gallery-img">
-          <img
-            class="gallery-card-image"
-            src="../assets/images/gallery/web/game-btns.jpg"
-            alt="Gaming"
-          />
-        </div>
-        <div class="gallery-content">
-          <h4>Simon</h4>
-          <p>Playing the game "Simon"</p>
-          <p>
-            <span class="fa-small-skill-badge heart red fab fa-html5"></span>
-            <span class="fa-small-skill-badge heart blue fab fa-sass"></span>
-            <span class="fa-small-skill-badge heart green fab fa-js"></span>
-          </p>
-          <button id="gallery-btn" class="gallery-btn project-btn" onclick="simonprojectFunction()">
-            Project
-          </button>
-          <button id="gallery-btn" class="gallery-btn gitcode-btn" onclick="simongitFunction()">
-            <i class="fab fa-github"></i> Code
-        </div>
+    </div>
+
+    <!-- Chadwick Boseman Tribue Page -->
+
+    <div class="gallery-card">
+      <div class="gallery-img">
+        <img class="gallery-card-image" src="../assets/images/gallery/web/africa.jpg"
+          alt="Chadwick Boseman Tribute Page" />
       </div>
-  
-      <!-- Project Template -->
-  
-  <!--     <div class="gallery-card">
+      <div class="gallery-content">
+        <h4>Tribute Page</h4>
+        <p>Tribute page to Chadwick Boseman</p>
+        <p>
+          <span class="fa-small-skill-badge african-red fab fa-html5"></span>
+          <span class="fa-small-skill-badge african-red fab fa-css3-alt"></span>
+        </p>
+        <button id="gallery-btn" class="gallery-btn project-btn" onclick="chadwickprojectFunction()">
+          Project
+        </button>
+        <button id="gallery-btn" class="gallery-btn gitcode-btn" onclick="chadwickgitFunction()">
+          <i class="fab fa-github"></i> Code
+        </button>
+      </div>
+    </div>
+
+    <!-- Project Template -->
+
+    <!--     <div class="gallery-card">
         <div class="gallery-img">
           <img
             class="gallery-card-image"
@@ -107,10 +122,10 @@
           </button>
           <button id="gallery-btn" class="gallery-btn gitcode-btn" onclick="gitFunction()">
             <i class="fab fa-github"></i> Code
+          </button>
         </div>
       </div> -->
-  
-  
-    </div>
+
+
   </div>
-  
+</div>

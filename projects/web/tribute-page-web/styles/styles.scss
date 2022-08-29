@@ -9,11 +9,9 @@ body {
   color: $night;
   text-align: center;
   font-family: $ubuntu;
-  background-image: linear-gradient(
-    $african-red,
-    $african-yellow,
-    $african-green
-  );
+  background-image: linear-gradient($african-red,
+      $african-yellow,
+      $african-green );
 }
 
 /* Git Button */
@@ -90,10 +88,8 @@ a:visited {
 .project-footer {
   @include page-footer();
   @include footcol($african-green, $ubuntu, $african-yellow);
-  @include linx(
+  @include linx($african-yellow,
     $african-yellow,
     $african-yellow,
-    $african-yellow,
-    $african-yellow
-  );
+    $african-yellow );
 }

@@ -65,41 +65,6 @@
   font-weight: normal;
   font-style: normal;
 }
-/* Google Fonts */
-/* Imported Fonts */
-/* HoneyBee-Regular */
-@font-face {
-  font-family: "HoneyBee Regular";
-  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* Honey https://www.creativefabrica.com/ref/182378/ */
-@font-face {
-  font-family: "Honey";
-  src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* Summerbee */
-@font-face {
-  font-family: "Summerbee";
-  src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Ladybug Love Regular";
-  src: url("../../../assets/fonts/ladybug-love/ladybug-love-demo.regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Wakanda";
-  src: url("../../../assets/fonts/Wakanda-Font/Wakanda.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 /* Padding Mixins */
 /* Margin Mixins */
 /* Height/Width */
@@ -152,7 +117,76 @@
   font-weight: normal;
   font-style: normal;
 }
+/* Google Fonts */
+/* Imported Fonts */
+/* HoneyBee-Regular */
+@font-face {
+  font-family: "HoneyBee Regular";
+  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Honey https://www.creativefabrica.com/ref/182378/ */
+@font-face {
+  font-family: "Honey";
+  src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Summerbee */
+@font-face {
+  font-family: "Summerbee";
+  src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ladybug Love Regular";
+  src: url("../../../assets/fonts/ladybug-love/ladybug-love-demo.regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Wakanda";
+  src: url("../../../assets/fonts/Wakanda-Font/Wakanda.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 /* Projects Fonts and Colours */
+.fa-skill-badge {
+  padding-top: 0;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  color: #376c77;
+  font-size: 60px;
+}
+
+.fa-small-skill-badge {
+  padding-top: 0;
+  padding-right: 1px;
+  padding-bottom: 0px;
+  padding-left: 1px;
+  color: #376c77;
+  font-size: 40px;
+}
+
+.html-badge {
+  color: #f16529;
+}
+
+.css-badge {
+  color: #2965f1;
+}
+
+.sass-badge {
+  color: #CD6799;
+}
+
+.js-badge {
+  color: #f0db4f;
+}
+
 /* Body */
 html {
   margin: 0 auto;

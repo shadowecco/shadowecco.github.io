@@ -210,39 +210,6 @@ body {
   background-color: $github;
 }
 
-//Skills Badges
-
-.fa-skill-badge {
-  @include padding-allround(0, 10px, 0px, 10px);
-  color: $darkblue;
-  font-size: 60px;
-}
-
-.fa-small-skill-badge {
-  @include padding-allround(0, 1px, 0px, 1px);
-  color: $darkblue;
-  font-size: 40px;
-}
-
-.african-red {
-  color: $african-red;
-}
-
-.heart {
-  color: $heart;
-}
-
-.red {
-  color: red;
-}
-
-.blue {
-  color: blue;
-}
-
-.green {
-  color: green;
-}
 
 /* Skills and Hobbies */
 

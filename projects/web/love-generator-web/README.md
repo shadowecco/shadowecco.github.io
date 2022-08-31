@@ -1,6 +1,6 @@
 # Love Generator
 
-[View the page here](https://shadowecco.github.io/projects/web/love-generator-web/).<br />
+[View the page here](https://shadowecco.github.io/projects/web/love-generator-web).<br />
 [Javascript Version (@replit.com)](https://replit.com/@HelenYates/Love-Generator).<br />
 [Python Version (@replit.com)](https://replit.com/@HelenYates/5-Love-Generator).<br />
 

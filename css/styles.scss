@@ -161,6 +161,7 @@ body {
 
 .gallery-card {
   @include gallery-card();
+  line-height: 1.2em;
 }
 
 .gallery-card-image {
@@ -210,6 +211,26 @@ body {
   background-color: $github;
 }
 
+.new-project,
+.updated-project {
+  @include texttype($architect, red, 40px, bold);
+  animation: animate 1.75s linear infinite;
+  line-height: 0.5em;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
 
 /* Skills and Hobbies */
 
@@ -256,10 +277,18 @@ body {
 
 /* Footer */
 
-.site-footer {
+.site-footer,
+.gallery-footer {
   @include page-footer();
   @include linx($darkblue, $darkblue, $darkblue, $darkblue);
+}
+
+.site-footer {
   @include footcol($skyblue, $summerbee, $darkblue);
+}
+
+.gallery-footer {
+  @include footcol($skyblue, $architect, $darkblue);
 }
 
 .contact-logo {

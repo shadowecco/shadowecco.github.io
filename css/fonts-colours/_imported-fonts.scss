@@ -17,7 +17,7 @@
 
 /* Imported Fonts */
 
-/* HoneyBee-Regular */
+//HoneyBee-Regular (https://fontbundles.net/free-fonts/regular-fonts/honey-bee)
 @font-face {
   font-family: "HoneyBee Regular";
   src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
@@ -25,7 +25,7 @@
   font-style: normal;
 }
 
-/* Honey https://www.creativefabrica.com/ref/182378/ */
+//Honey (https://www.dafont.com/honey.font)
 @font-face {
   font-family: "Honey";
   src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
@@ -33,7 +33,7 @@
   font-style: normal;
 }
 
-/* Summerbee */
+// Summerbee (https://www.fontspace.com/summerbee-font-f46710)
 @font-face {
   font-family: "Summerbee";
   src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
@@ -49,10 +49,18 @@
   font-style: normal;
 }
 
-// Wakanda Font
+// Star Jedi (https://www.dafont.com/star-jedi.font)
 @font-face {
-  font-family: "Wakanda";
-  src: url("../../../assets/fonts/Wakanda-Font/Wakanda.ttf") format("truetype");
+  font-family: "Star Jedi";
+  src: url("../../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Anakin Mono (https://www.dafont.com/star-jedi.font)
+@font-face {
+  font-family: "Anakin Mono";
+  src: url("../../../assets/fonts/anakin-mono/anakinmono.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

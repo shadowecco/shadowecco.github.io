@@ -13,18 +13,18 @@ function gitFunction() {
   );
 }
 
+/*WEB*/
 
 //Star Wars Name Generator
 
-/* function starwarsprojectFunction() {
+function starwarsprojectFunction() {
   window.open("https://shadowecco.github.io/projects/web/star-wars-name-generator-web", "_blank");
 }
-  
+
 function starwarsgitFunction() {
   window.open("https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/star-wars-name-generator-web", "_blank");
-} */
+}
 
-/*WEB*/
 
 //Drum Kit
 

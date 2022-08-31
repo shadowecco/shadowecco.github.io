@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Star Wars Name Generator</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.ico" />
+
+  <!-- Font Awesome Icons 5.15.4 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../../../css/styles.css" />
+  <link rel="stylesheet" href="../../../assets/flaticon/flaticon.css" />
+
+  <!-- Specific Stylesheet -->
+  <link rel="stylesheet" href="./styles/styles.css" />
+
+  <!-- JQuery 3.6.0 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Main Javascript -->
+  <script type="text/javascript" src="../../../js/main.js"></script>
+  <script type="text/javascript" src="../../../js/buttons.js"></script>
+
+  <!-- Specific Javascript -->
+  <script type="text/javascript" src="./project.js"></script>
+</head>
+
+<body>
+  <!-- Github Button -->
+  <button id="projgit-but projectgit" class="projectgit" onclick="gitFunction()">
+    <i class="fab fa-github"></i> View Project Code at GitHub
+  </button>
+
+  <!-- Project Area -->
+  <div class="sw-container">
+
+    <!-- Headers -->
+
+    <h1 class="title">Star Wars Name Generator</h1>
+    <h2 class="subtitle">What's your Star Wars name?</h2>
+
+    <!-- Input Form -->
+
+    <form class="starwars-form" id="starwars-form">
+      <label for="first-name" class="first-name-text">Your First Name:</p></label>
+      <input type="text" id="first-name" type="text">
+
+      <label for="last-name" class="last-name-text">Last Name:</p></label>
+      <input type="text" id="last-name" type="text">
+
+      <label for="maiden-name" class="maiden-name-text ">Mum's Maiden Name:</p></label>
+      <input type="text" id="maiden-name" type="text">
+
+      <label for="birth-town" class="birth-town-text ">Your Birth Town:</p></label>
+      <input type="text" id="birth-town" type="text">
+    </form>
+
+    <!-- Star Wars Name and Alliance -->
+
+    <div class="star-wars-name" id="star-wars-name"></div>
+    <div class="star-wars-alliance" id="star-wars-alliance"></div>
+    <button class="star-wars-btn" id="star-wars-btn" onclick="nameChange()">Find out</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer project-footer">
+    &nbsp
+    <!-- Contacts -->
+    <div id="contacts" class="contacts project-contacts"></div>
+
+    <!-- Copyright -->
+    <div id="copyright" class="copyright">Copyright</div>
+
+    <!-- Credits-->
+    <div class="credits project-credits">Credits</div>
+
+    <!-- Powered by -->
+    <div class="powered">
+      &#128029; Powered by chocolate, tea and coding &#128029;
+    </div>
+    &nbsp
+  </footer>
+</body>
+
+</html>

@@ -21,7 +21,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
 /* Imported Fonts */
-/* HoneyBee-Regular */
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
@@ -38,14 +37,12 @@
   font-weight: normal;
   font-style: normal;
 }
-/* Honey https://www.creativefabrica.com/ref/182378/ */
 @font-face {
   font-family: "Honey";
   src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* Summerbee */
 @font-face {
   font-family: "Summerbee";
   src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
@@ -59,8 +56,14 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Wakanda";
-  src: url("../../../assets/fonts/Wakanda-Font/Wakanda.ttf") format("truetype");
+  font-family: "Star Jedi";
+  src: url("../../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Anakin Mono";
+  src: url("../../../assets/fonts/anakin-mono/anakinmono.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -83,21 +86,18 @@
 /* Github Button */
 /* Google Fonts */
 /* Imported Fonts */
-/* HoneyBee-Regular */
 @font-face {
   font-family: "HoneyBee Regular";
   src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
-/* Honey https://www.creativefabrica.com/ref/182378/ */
 @font-face {
   font-family: "Honey";
   src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* Summerbee */
 @font-face {
   font-family: "Summerbee";
   src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
@@ -111,28 +111,31 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Wakanda";
-  src: url("../../../assets/fonts/Wakanda-Font/Wakanda.ttf") format("truetype");
+  font-family: "Star Jedi";
+  src: url("../../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Anakin Mono";
+  src: url("../../../assets/fonts/anakin-mono/anakinmono.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 /* Google Fonts */
 /* Imported Fonts */
-/* HoneyBee-Regular */
 @font-face {
   font-family: "HoneyBee Regular";
   src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
-/* Honey https://www.creativefabrica.com/ref/182378/ */
 @font-face {
   font-family: "Honey";
   src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* Summerbee */
 @font-face {
   font-family: "Summerbee";
   src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
@@ -146,8 +149,14 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Wakanda";
-  src: url("../../../assets/fonts/Wakanda-Font/Wakanda.ttf") format("truetype");
+  font-family: "Star Jedi";
+  src: url("../../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Anakin Mono";
+  src: url("../../../assets/fonts/anakin-mono/anakinmono.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -393,7 +402,7 @@ body {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding-top: 20px;
   text-align: center;
 }
@@ -401,6 +410,7 @@ body {
 .gallery-card {
   border-radius: 3.2px;
   width: 350px;
+  line-height: 1.2em;
 }
 
 .gallery-card-image {
@@ -471,6 +481,40 @@ body {
   background-color: #2196f3;
 }
 
+.new-project,
+.updated-project {
+  font-family: "Architects Daughter", cursive;
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-animation: animate 1.75s linear infinite;
+          animation: animate 1.75s linear infinite;
+  line-height: 0.5em;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /* Skills and Hobbies */
 .skills-rows {
   padding-top: 10px;
@@ -531,27 +575,41 @@ body {
 }
 
 /* Footer */
-.site-footer {
+.site-footer,
+.gallery-footer {
   width: 100%;
   box-sizing: border-box;
   bottom: 0;
   margin-top: 10px;
   text-align: center;
   font-weight: bold;
+}
+.site-footer a,
+.gallery-footer a {
+  color: #376c77;
+}
+.site-footer a:visited,
+.gallery-footer a:visited {
+  color: #376c77;
+}
+.site-footer a:hover,
+.gallery-footer a:hover {
+  color: #376c77;
+}
+.site-footer a:active,
+.gallery-footer a:active {
+  color: #376c77;
+}
+
+.site-footer {
   background-color: #bdf3ff;
   font-family: "Summerbee", sans-serif;
   color: #376c77;
 }
-.site-footer a {
-  color: #376c77;
-}
-.site-footer a:visited {
-  color: #376c77;
-}
-.site-footer a:hover {
-  color: #376c77;
-}
-.site-footer a:active {
+
+.gallery-footer {
+  background-color: #bdf3ff;
+  font-family: "Architects Daughter", cursive;
   color: #376c77;
 }
 

@@ -15,6 +15,19 @@ function gitFunction() {
 
 /*WEB*/
 
+//Project Template
+
+function diceprojectFunction() {
+  window.open("https://shadowecco.github.io/projects/web/dice-challenge-web", "_blank");
+}
+
+function dicegitFunction() {
+  window.open(
+    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/dice-challenge-web",
+    "_blank"
+  );
+}
+
 //Star Wars Name Generator
 
 function starwarsprojectFunction() {

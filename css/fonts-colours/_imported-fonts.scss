@@ -1,21 +1,40 @@
 /* Google Fonts */
 
-//Ubuntu Regular 400
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-
-//MerryWeather Sans
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
-
 //Architects Daughter
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-
-//Press Start 2P
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 //Boogaloo
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
 
+//Lobster
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
+
+//MerryWeather Sans
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+
+//Press Start 2P
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+//Ubuntu Regular 400
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
 /* Imported Fonts */
+
+//Anakin Mono (https://www.dafont.com/star-jedi.font)
+@font-face {
+  font-family: "Anakin Mono";
+  src: url("../../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+//Honey (https://www.dafont.com/honey.font)
+@font-face {
+  font-family: "Honey";
+  src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 //HoneyBee-Regular (https://fontbundles.net/free-fonts/regular-fonts/honey-bee)
 @font-face {
@@ -25,31 +44,23 @@
   font-style: normal;
 }
 
-//Honey (https://www.dafont.com/honey.font)
+//Indie Flower (https://www.dafont.com/indie-flower.font)
 @font-face {
-  font-family: "Honey";
-  src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
+  font-family: "Indie Flower";
+  src: url("../../../assets/fonts/Indie-Flower/IndieFlower.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-// Summerbee (https://www.fontspace.com/summerbee-font-f46710)
-@font-face {
-  font-family: "Summerbee";
-  src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-// Ladybug Love (https://www.1001fonts.com/ladybug-love-demo-font.html)
+//Ladybug Love (https://www.1001fonts.com/ladybug-love-demo-font.html)
 @font-face {
   font-family: "Ladybug Love Regular";
-  src: url("../../../assets/fonts/ladybug-love/ladybug-love-demo.regular.otf") format("opentype");
+  src: url("../../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
-// Star Jedi (https://www.dafont.com/star-jedi.font)
+//Star Jedi (https://www.dafont.com/star-jedi.font)
 @font-face {
   font-family: "Star Jedi";
   src: url("../../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
@@ -57,10 +68,10 @@
   font-style: normal;
 }
 
-// Anakin Mono (https://www.dafont.com/star-jedi.font)
+//Summerbee (https://www.fontspace.com/summerbee-font-f46710)
 @font-face {
-  font-family: "Anakin Mono";
-  src: url("../../../assets/fonts/anakin-mono/anakinmono.ttf") format("truetype");
+  font-family: "Summerbee";
+  src: url("../../assets/fonts/Summerbee/Summerbee.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

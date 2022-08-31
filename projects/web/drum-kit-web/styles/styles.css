@@ -16,22 +16,37 @@
 /* Footer */
 /* Borders */
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 /* Imported Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@font-face {
+  font-family: "Anakin Mono";
+  src: url("../../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Honey";
+  src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: "HoneyBee Regular";
   src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
@@ -39,20 +54,14 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Honey";
-  src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Summerbee";
-  src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
+  font-family: "Indie Flower";
+  src: url("../../../assets/fonts/Indie-Flower/IndieFlower.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Ladybug Love Regular";
-  src: url("../../../assets/fonts/ladybug-love/ladybug-love-demo.regular.otf") format("opentype");
+  src: url("../../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -63,8 +72,8 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Anakin Mono";
-  src: url("../../../assets/fonts/anakin-mono/anakinmono.ttf") format("truetype");
+  font-family: "Summerbee";
+  src: url("../../assets/fonts/Summerbee/Summerbee.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -88,26 +97,32 @@
 /* Google Fonts */
 /* Imported Fonts */
 @font-face {
+  font-family: "Anakin Mono";
+  src: url("../../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Honey";
+  src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "HoneyBee Regular";
   src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Honey";
-  src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Summerbee";
-  src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
+  font-family: "Indie Flower";
+  src: url("../../../assets/fonts/Indie-Flower/IndieFlower.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Ladybug Love Regular";
-  src: url("../../../assets/fonts/ladybug-love/ladybug-love-demo.regular.otf") format("opentype");
+  src: url("../../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -118,34 +133,40 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Anakin Mono";
-  src: url("../../../assets/fonts/anakin-mono/anakinmono.ttf") format("truetype");
+  font-family: "Summerbee";
+  src: url("../../assets/fonts/Summerbee/Summerbee.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 /* Google Fonts */
 /* Imported Fonts */
 @font-face {
+  font-family: "Anakin Mono";
+  src: url("../../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Honey";
+  src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "HoneyBee Regular";
   src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Honey";
-  src: url("../../assets/fonts/honey/Honey.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Summerbee";
-  src: url("../../assets/fonts/summerbee-font/Summerbee.ttf") format("truetype");
+  font-family: "Indie Flower";
+  src: url("../../../assets/fonts/Indie-Flower/IndieFlower.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Ladybug Love Regular";
-  src: url("../../../assets/fonts/ladybug-love/ladybug-love-demo.regular.otf") format("opentype");
+  src: url("../../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -156,12 +177,15 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Anakin Mono";
-  src: url("../../../assets/fonts/anakin-mono/anakinmono.ttf") format("truetype");
+  font-family: "Summerbee";
+  src: url("../../assets/fonts/Summerbee/Summerbee.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 /* Projects Fonts and Colours */
+/* $magic: rgb(160, 15, 136);
+$fire: rgb(243, 107, 0);
+$bluefire: rgb(243, 49, 0); */
 .fa-skill-badge {
   padding-top: 0;
   padding-right: 10px;

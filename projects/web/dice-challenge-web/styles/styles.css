@@ -228,15 +228,10 @@ html {
 body {
   margin: 0 auto;
   min-height: 100vh;
+  background-color: #393e46;
+  font-family: "Lobster", cursive;
+  color: #4ecca3;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../images/love-heart-by-jamie-street-unsplash.png);
-  background-size: 110%;
-  font-family: "Ladybug Love Regular";
-  color: white;
-  font-weight: 700;
 }
 
 /* Git Button */
@@ -258,9 +253,8 @@ body {
   background-color: transparent;
   font-size: 18px;
   font-family: "Merriweather Sans", sans-serif;
-  background-color: rgb(233, 27, 27);
-  color: #eaf6f6;
-  border-color: #eaf6f6;
+  color: white;
+  border-color: white;
 }
 
 .projectgit:hover {
@@ -288,103 +282,50 @@ body {
 /* Links */
 a,
 a:visited {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
-/* Love Container */
-.love-container {
-  padding-top: 10px;
-  padding-bottom: 50px;
-  position: absolute;
-  top: 25%;
+.container {
+  width: 70%;
+  margin: auto;
   text-align: center;
-  background: rgba(255, 0, 0, 0.5);
-  width: 700px;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+h1,
+p {
+  line-height: 1em;
+  color: #4ecca3;
+}
+
+h1 {
+  margin-top: 30px;
 }
 
 .title {
-  font-size: 40px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 64px;
 }
 
-.subtitle {
-  font-size: 30px;
+.refresh {
+  font-family: "Indie Flower", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 50px;
 }
 
-/* Form*/
-.love-form {
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 20px;
-  padding-left: 100px;
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  grid-gap: 16px;
-}
-
-input[type=text],
-select {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ccc;
-  width: 50%;
-  height: 20px;
-  margin: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-label {
-  float: left;
-  width: 200px;
-  padding-right: 24px;
-  grid-column: 1/2;
-}
-
-button {
-  grid-column: 2/3;
-}
-
-/* Name Text Labek */
-.name-text {
-  padding-left: 125px;
-  text-align: left;
-}
-
-/* Name Text Area */
-input {
-  height: 30px;
-  width: 500px;
-  float: left;
-}
-
-.your-name {
-  margin: 0px;
-  text-align: center;
-  font-size: 25px;
-}
-
-.crush-name {
-  margin: 0px;
-  text-align: center;
-  font-size: 25px;
-}
-
-/* Love Button */
-.love-btn {
-  margin-top: 12px;
-  border-radius: 12px;
-  border-style: solid;
-  border-width: 1px;
-  font-size: 30px;
-  background-color: white;
-  color: black;
-}
-
-#love-score,
-#love-comment {
+p {
   font-size: 32px;
-  margin-top: 5px;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
 }
 
 /* Footer */
@@ -401,25 +342,25 @@ input {
   margin-top: 10px;
   text-align: center;
   font-weight: bold;
-  background-color: rgba(255, 0, 0, 0.5);
-  font-family: "Ladybug Love Regular";
-  color: #eaf6f6;
+  background-color: transparent;
+  font-family: "Indie Flower", cursive;
+  color: #4ecca3;
   position: fixed;
 }
 .project-footer a {
-  color: #eaf6f6;
+  color: #4ecca3;
 }
 .project-footer a:visited {
-  color: #eaf6f6;
+  color: #4ecca3;
 }
 .project-footer a:hover {
-  color: #eaf6f6;
+  color: #4ecca3;
 }
 .project-footer a:active {
-  color: #eaf6f6;
+  color: #4ecca3;
 }
 
 .credits a,
 a:visited {
-  color: #eaf6f6;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */

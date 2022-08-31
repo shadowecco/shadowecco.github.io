@@ -1,0 +1,99 @@
+/* SASS Import Files */
+
+@import "../../../../css/_elements.scss";
+
+$images: "../images";
+
+/* Body */
+html {
+  @include html();
+}
+
+body {
+  @include body();
+  background-color: $dark-grey;
+  font-family: $lobster;
+  color: $seagreen;
+  text-align: center;
+}
+
+/* Git Button */
+
+.projectgit {
+  @include projgitbut();
+  @include gitbutcol($light, $light);
+}
+
+.projectgit:hover {
+  @include projgithover();
+  @include gitbutcol($light, $light);
+}
+
+/* Links */
+
+a,
+a:visited {
+  color: $night;
+  text-decoration: none;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+h1,
+p {
+  line-height: 1em;
+  color: $seagreen;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+.title {
+  font-family: $lobster;
+  text-shadow: 5px 0 $shadow;
+  font-size: 64px;
+}
+
+.refresh {
+  font-family: $indieflower;
+  text-shadow: 5px 0 $shadow;
+  font-size: 50px;
+}
+
+p {
+  font-size: 32px;
+  font-family: $indieflower;
+}
+
+img {
+  width: 80%;
+}
+
+/* Footer */
+
+.contact-logo {
+  @include contact-logo();
+}
+
+.project-footer {
+  @include page-footer();
+  @include footcol(transparent, $indieflower, $seagreen);
+  @include linx($seagreen, $seagreen, $seagreen, $seagreen);
+  position: fixed;
+}
+
+.credits a,
+a:visited {
+  color: $light;
+}

@@ -19,11 +19,13 @@ body {
 .projectgit {
   @include projgitbut();
   @include gitbutcol($african-yellow, $african-yellow);
+  font-family: $gittext;
 }
 
 .projectgit:hover {
   @include projgithover();
   @include gitbutcol($light, $light);
+  font-family: $gittext;
 }
 
 /* Text Area */
@@ -69,14 +71,6 @@ body {
 .img-caption {
   @include margin-allround(5px, 0px, 5px, 0px);
   font-weight: bold;
-}
-
-/* Links */
-
-a,
-a:visited {
-  color: $african-yellow;
-  text-decoration: none;
 }
 
 /* Footer */

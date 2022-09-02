@@ -194,16 +194,19 @@ body {
 .gallery-card,
 .gallery-btn,
 .project-btn,
+.img-btn,
 .codepen-btn {
   @include borall(solid, 1px, $night);
 }
 
 .gallery-btn {
   @include gallery-btn();
+  margin-bottom: 10px;
 }
 
 .project-btn,
-.gitcode-btn {
+.gitcode-btn,
+.img-btn {
   color: $light;
 }
 
@@ -211,11 +214,22 @@ body {
   background-color: $github;
 }
 
+.img-btn {
+  background: $lilac;
+}
+
 .new-project,
 .updated-project {
-  @include texttype($architect, red, 40px, bold);
-  animation: animate 1.75s linear infinite;
+  animation: animate 1.8s linear infinite;
   line-height: 0.5em;
+}
+
+.new-project {
+  @include texttype($architect, red, 40px, bold);
+}
+
+.updated-project {
+  @include texttype($architect, green, 40px, bold);
 }
 
 @keyframes animate {

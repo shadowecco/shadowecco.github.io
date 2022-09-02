@@ -102,6 +102,13 @@
   font-weight: $weight;
 }
 
+@mixin inputplace($fonttype, $fontcol, $fontsize, $pleft) {
+  font-family: $fonttype;
+  color: $fontcol;
+  font-size: $fontsize;
+  padding-left: $pleft;
+}
+
 /* Containers */
 
 @mixin body-container() {

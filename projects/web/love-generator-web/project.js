@@ -34,36 +34,41 @@ function gitFunction() {
 /* Functions activated after pressing Love button */
 
 function addLove() {
-  const loveForm = document.getElementById("love-form");
-  const loveButton = document.getElementById("love-btn");
   const loveScore = document.getElementById("love-score");
   const loveComment = document.getElementById("love-comment");
 
-  var crushName = document.getElementById("love-form")[1].value;
+  var crushName = document.getElementById("crush-name-text").value;
 
-  loveForm.remove();
-  loveButton.remove();
+  $(".title").remove();
+  $(".subtitle").remove();
+  $(".love-form").remove();
+  $(".love-btn").remove();
+  $(".reset").show()
   calculateScore();
 
   function calculateScore() {
     const loveNumber = Math.floor(Math.random() * 100) + 1;
     loveScore.innerText = "Your love score is " + loveNumber + "%!";
+    loveScore.style.display = "block";
 
     if (loveNumber > 70) {
       loveComment.innerText =
         "*** You and " +
         crushName +
         " love each other like Kanye loves Kanye! ***";
+      loveComment.style.display = "block";
     }
 
     if (loveNumber > 30 && loveNumber <= 70) {
       loveComment.innerText =
         "** Something could be between you two. Fingers crossed! **";
+      loveComment.style.display = "block";
     }
 
     if (loveNumber <= 30) {
       loveComment.innerText =
         "* You and " + crushName + " go together like oil and water! *";
+      loveComment.style.display = "block";
     }
   }
 }

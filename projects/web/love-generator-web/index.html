@@ -9,8 +9,8 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.ico" />
 
-  <!-- Font Awesome Icons 5.15.4 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- Font Awesome Icons 6.2.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../../../css/styles.css" />
@@ -23,7 +23,6 @@
 
   <!-- Main Javascript -->
   <script type="text/javascript" src="../../../js/main.js"></script>
-  <script type="text/javascript" src="../../../js/buttons.js"></script>
 
   <!-- Specific Javascript -->
   <script type="text/javascript" src="./project.js"></script>
@@ -41,13 +40,21 @@
     <h2 class="subtitle">** Are you and your crush meant to be? **</h2>
 
     <!-- Love form -->
-    <form class="love-form" id="love-form">
-      <label for="your-name" class="your-name">Your Name:</label>
-      <input id="your-name-text" type="text" />
+    <div class="love-form" id="love-form">
+      <div id="user-love" class="user-love">
+        <!-- Prevent User to Enter Numbers and Spaces -->
+        <input id="your-name-text" class="your-name-text"
+          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"
+          placeholder="Your Name">
+      </div>
 
-      <label for="crush-name" class="crush-name">Your Crush's Name:</label>
-      <input id="crush-name-text" type="text" />
-    </form>
+      <div id="crush-love" class="crush-love">
+        <!-- Prevent User to Enter Numbers and Spaces -->
+        <input id="crush-name-text" class="crush-name-text"
+          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"
+          placeholder="Your Crush's Name">
+      </div>
+    </div>
 
     <!-- Love Score and Comment -->
     <div id="love-score"></div>
@@ -55,6 +62,11 @@
 
     <!-- Love Button -->
     <button id="love-btn" class="love-btn" onclick="addLove()">Press</button>
+
+    <!-- Reset Button -->
+    <div class="reset" id="reset"><i class="fas fa-sync-alt reset-icon" title="Reset"
+        onclick="window.location.reload()"></i>
+    </div>
   </div>
 
   <!-- Footer -->

@@ -12,8 +12,8 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.ico" />
 
-  <!-- Font Awesome Icons 5.15.4 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- Font Awesome Icons 6.2.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../../../css/styles.css" />
@@ -27,7 +27,6 @@
 
   <!-- Main Javascript -->
   <script type="text/javascript" src="../../../js/main.js"></script>
-  <script type="text/javascript" src="../../../js/buttons.js"></script>
 
   <!-- Specific Javascript -->
   <script type="text/javascript" src="./project.js"></script>
@@ -43,31 +42,48 @@
   <div class="sw-container">
 
     <!-- Headers -->
-
     <h1 class="title">Star Wars Name Generator</h1>
     <h2 class="subtitle">What's your Star Wars name?</h2>
 
-    <!-- Input Form -->
+    <!-- Input Area  -->
+    <div class="starwars-form" id="starwars-form">
 
-    <form class="starwars-form" id="starwars-form">
-      <label for="first-name" class="first-name-text">Your First Name:</p></label>
-      <input type="text" id="first-name" type="text">
+      <!-- Top Row -->
+      <div id="top-row" class="top-row">
+        <!-- Prevent User to Enter Numbers and Spaces -->
+        <input id="first-name" class="first-name"
+          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"
+          placeholder="Your First Name">
+        <!-- Prevent User to Enter Numbers and Spaces -->
+        <input id="last-name" class="last-name"
+          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"
+          placeholder="Last Name">
+      </div>
 
-      <label for="last-name" class="last-name-text">Last Name:</p></label>
-      <input type="text" id="last-name" type="text">
-
-      <label for="maiden-name" class="maiden-name-text ">Mum's Maiden Name:</p></label>
-      <input type="text" id="maiden-name" type="text">
-
-      <label for="birth-town" class="birth-town-text ">Your Birth Town:</p></label>
-      <input type="text" id="birth-town" type="text">
-    </form>
+      <!-- Bottom Row -->
+      <div id="bottom-row" class="bottom-row">
+        <!-- Prevent User to Enter Numbers and Spaces -->
+        <input id="maiden-name" class="maiden-name"
+          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"
+          placeholder="Mum's Maiden Name">
+        <!-- Prevent User to Enter Numbers and Spaces -->
+        <input id="birth-town" class="birth-town"
+          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"
+          placeholder="Your Birth Town">
+      </div>
+    </div>
 
     <!-- Star Wars Name and Alliance -->
+    <div class="star-wars-name" id="star-wars-name">Name</div>
+    <div class="star-wars-alliance" id="star-wars-alliance">Alliance</div>
 
-    <div class="star-wars-name" id="star-wars-name"></div>
-    <div class="star-wars-alliance" id="star-wars-alliance"></div>
+    <!-- Star Wars Button -->
     <button class="star-wars-btn" id="star-wars-btn" onclick="nameChange()">Find out</button>
+
+    <!-- Reset Button -->
+    <div class="reset" id="reset"><i class="fas fa-sync-alt reset-icon" title="Reset"
+        onclick="window.location.reload()"></i>
+    </div>
   </div>
 
   <!-- Footer -->

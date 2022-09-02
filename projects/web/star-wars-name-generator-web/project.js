@@ -36,10 +36,9 @@ function nameChange() {
 
   /* DOM Elements */
 
-  const spaceForm = document.getElementById('starwars-form')
-  const spaceButton = document.getElementById('star-wars-btn')
   const spaceName = document.getElementById("star-wars-name")
   const spaceAlliance = document.getElementById("star-wars-alliance")
+  const resetDiv = document.getElementById("reset")
 
   var firstName = document.getElementById('first-name').value;
   var lastName = document.getElementById('last-name').value;
@@ -57,15 +56,21 @@ function nameChange() {
   const allianceList = ["Jedi", "Sith", "Neutral", "Rebel Alliance", "Galactic Empire", "Resistance", "First Order"]
   var ranAlliance = allianceList[Math.floor(Math.random() * allianceList.length)];
 
-  spaceForm.remove();
-  spaceButton.remove();
+  $(".title").remove();
+  $(".subtitle").remove();
+  $(".starwars-form").remove();
+  $(".star-wars-btn").remove();
+  $(".reset").show()
 
   spaceName.innerText = "Your Star Wars Name is " + swFirstName[0].toUpperCase() + swFirstName.substring(1) + " " + swLastName[0].toUpperCase() + swLastName.substring(1)
+  spaceName.style.display = "block";
 
   if (ranAlliance == "Neutral") {
     spaceAlliance.innerText = "Your alliance is " + ranAlliance;
+    spaceAlliance.style.display = "block";
   } else {
     spaceAlliance.innerText = "Your alliance is with the " + ranAlliance;
+    spaceAlliance.style.display = "block";
   }
 };
 

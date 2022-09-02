@@ -22,11 +22,13 @@ body {
 .projectgit {
   @include projgitbut();
   @include gitbutcol($calamansi, $calamansi);
+  font-family: $gittext;
 }
 
 .projectgit:hover {
   @include projgithover();
   @include gitbutcol($light, $light);
+  font-family: $gittext;
 }
 
 #level-title {
@@ -81,14 +83,6 @@ body {
 .pressed {
   box-shadow: 0 0 20px $light;
   background-color: $silver;
-}
-
-/* Links */
-
-a,
-a:visited {
-  color: $night;
-  text-decoration: none;
 }
 
 /* Footer */

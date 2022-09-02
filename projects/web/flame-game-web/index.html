@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>FLAMES Game</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.ico" />
+
+  <!-- Font Awesome Icons 6.2.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../../../css/styles.css" />
+  <link rel="stylesheet" href="../../../assets/flaticon/flaticon.css" />
+
+  <!-- Specific Stylesheet -->
+  <link rel="stylesheet" href="./styles/styles.css" />
+
+  <!-- JQuery 3.6.0 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Main Javascript -->
+  <script type="text/javascript" src="../../../js/main.js"></script>
+
+  <!-- Specific Javascript -->
+  <script type="text/javascript" src="./project.js"></script>
+</head>
+
+<body>
+  <!-- Github Button -->
+  <button id="projgit-but projectgit" class="projectgit" onclick="gitFunction()">
+    <i class="fab fa-github"></i> View Project Code at GitHub
+  </button>
+
+  <!-- Project Area -->
+  <div id="projectarea" class="projectarea">
+    <!-- Game Title -->
+    <h3 id="gametitle" class="gametitle">FLAME</h3>
+    <!-- Game Box -->
+    <div id="gamebox" class="gamebox">
+
+      <!-- User Input Box -->
+      <div id="user-inputbox" class="user-inputbox">
+        <!-- Prevent User to Enter Numbers and Spaces -->
+        <input type="text" id="username" class="username"
+          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))">
+        <p id="label" class="label">Your Name</p>
+      </div>
+
+      <!-- Crush Input Box -->
+      <div id="crush-inputbox" class="crush-inputbox">
+        <!-- Prevent User to Enter Numbers and Spaces -->
+        <input type="text" id="crushname" class="crushname"
+          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))">
+        <p id="label" class="label">Your Crush's Names</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Button Box -->
+  <div id="buttonbox" class="buttonbox">
+    <button id="checkmatchbtn" class="checkmatchbtn">
+      <span>CHECK MATCH</span>
+      <!-- Loader -->
+      <!-- <img src="img/loader.gif"> -->
+    </button>
+  </div>
+
+  <!-- Match Result Box -->
+  <div id="matchresultbox" class="matchresultbox">
+    Friends
+  </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer project-footer">
+    &nbsp
+    <!-- Contacts -->
+    <div id="contacts" class="contacts project-contacts"></div>
+
+    <!-- Copyright -->
+    <div id="copyright" class="copyright">Copyright</div>
+
+    <!-- Credits-->
+    <div class="credits project-credits">Credits</div>
+
+    <!-- Powered by -->
+    <div class="powered">
+      &#128029; Powered by chocolate, tea and coding &#128029;
+    </div>
+    &nbsp
+  </footer>
+</body>
+
+</html>

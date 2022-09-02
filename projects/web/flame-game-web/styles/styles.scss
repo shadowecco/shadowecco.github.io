@@ -1,0 +1,131 @@
+/* SASS Import Files */
+
+@import "../../../../css/_elements.scss";
+
+$images: "../images";
+
+/* Body */
+html {
+  @include html();
+}
+
+body {
+  @include body();
+  @include body-container();
+  background: linear-gradient(to right, #b91d73, #f953c6);
+  color: $light;
+  text-align: center;
+}
+
+/* Git Button */
+
+.projectgit {
+  @include projgitbut();
+  @include gitbutcol($light, $light);
+  font-family: $gittext;
+}
+
+.projectgit:hover {
+  @include projgithover();
+  @include gitbutcol($light, $light);
+  font-family: $gittext;
+}
+
+/* Container */
+
+.gametitle {
+  font-family: $peacechild;
+  font-size: 64px;
+}
+
+.user-inputbox {
+  padding-right: 75px;
+  width: 200px;
+  float: left;
+}
+
+.crush-inputbox {
+  padding-left: 75px;
+  width: 200px;
+  float: right;
+}
+
+.user-inputbox input,
+.crush-inputbox input {
+  border: 2px solid #ed213a;
+  outline: none;
+  padding: 6px;
+  font-size: 1.3rem;
+  width: 200px;
+  color: #b91d73;
+}
+
+
+.buttonbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.buttonbox button {
+  display: block;
+  outline: none;
+  border: 2px solid $light;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  background: $light;
+  color: #ed213a;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.buttonbox button img {
+  width: 55px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.matchresultbox {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background: $light;
+  border: 2px dashed #ed231a;
+  padding: 6px;
+  color: #ed231a;
+  font-size: 1.4rem;
+  font-family: $indieflower;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+.matchresultbox.visible {
+  visibility: visible;
+}
+
+/* Footer */
+
+.contact-logo {
+  @include contact-logo();
+}
+
+.project-footer {
+  @include page-footer();
+  @include footcol(transparent, $love, $light);
+  @include linx($light, $light, $light, $light);
+  position: fixed;
+}
+
+.credits a,
+a:visited {
+  color: $light;
+}

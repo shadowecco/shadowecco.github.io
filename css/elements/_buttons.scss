@@ -54,7 +54,6 @@
   @include borwidth(solid, 2px);
   background-color: transparent;
   font-size: 18px;
-  font-family: $gittext;
 }
 
 @mixin projgithover() {
@@ -63,5 +62,4 @@
   @include borwidth(solid, 2px);
   background-color: $github;
   font-size: 18px;
-  font-family: $gittext;
 }

@@ -64,6 +64,20 @@
   font-weight: normal;
   font-style: normal;
 }
+/* Love Font (https://www.cufonfonts.com/font/love)*/
+@font-face {
+  font-family: "Love";
+  src: url("../../../assets/fonts/Love/Love.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Peace Child (https://www.1001fonts.com/peacechild-font.html)*/
+@font-face {
+  font-family: "Peace Child";
+  src: url("../../../assets/fonts/Peace-Child/Peace-Child.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: "Star Jedi";
   src: url("../../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
@@ -125,6 +139,20 @@
   font-weight: normal;
   font-style: normal;
 }
+/* Love Font (https://www.cufonfonts.com/font/love)*/
+@font-face {
+  font-family: "Love";
+  src: url("../../../assets/fonts/Love/Love.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Peace Child (https://www.1001fonts.com/peacechild-font.html)*/
+@font-face {
+  font-family: "Peace Child";
+  src: url("../../../assets/fonts/Peace-Child/Peace-Child.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: "Star Jedi";
   src: url("../../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
@@ -166,6 +194,20 @@
 @font-face {
   font-family: "Ladybug Love Regular";
   src: url("../../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Love Font (https://www.cufonfonts.com/font/love)*/
+@font-face {
+  font-family: "Love";
+  src: url("../../../assets/fonts/Love/Love.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Peace Child (https://www.1001fonts.com/peacechild-font.html)*/
+@font-face {
+  font-family: "Peace Child";
+  src: url("../../../assets/fonts/Peace-Child/Peace-Child.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -247,9 +289,9 @@ body {
   border-width: 2px;
   background-color: transparent;
   font-size: 18px;
-  font-family: "Merriweather Sans", sans-serif;
   color: #ffb81c;
   border-color: #ffb81c;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .projectgit:hover {
@@ -269,9 +311,9 @@ body {
   border-width: 2px;
   background-color: #2196f3;
   font-size: 18px;
-  font-family: "Merriweather Sans", sans-serif;
   color: white;
   border-color: white;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 /* Text Area */
@@ -323,13 +365,6 @@ body {
   margin-bottom: 5px;
   margin-left: 0px;
   font-weight: bold;
-}
-
-/* Links */
-a,
-a:visited {
-  color: #ffb81c;
-  text-decoration: none;
 }
 
 /* Footer */

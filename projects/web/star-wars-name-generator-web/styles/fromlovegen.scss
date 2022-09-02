@@ -1,0 +1,67 @@
+/* Love Container */
+
+.love-container {
+    background: $shinyheart;
+    width: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 1em;
+}
+
+.subtitle {
+    font-size: 30px;
+    line-height: 1em;
+}
+
+/* Name Text Area */
+
+.user-love,
+.crush-love {
+    padding-top: 20px;
+    float: left;
+}
+
+.user-love {
+    float: left;
+}
+
+.crush-love {
+    float: right;
+}
+
+.user-love input,
+.crush-love input {
+    @include borall(solid, 1px, $night);
+    outline: none;
+    border-radius: 9px;
+    font-size: 25px;
+    color: #b91d73;
+}
+
+.crush-name-text::placeholder,
+.your-name-text::placeholder {
+    font-family: $love;
+    color: #b91d73;
+    font-size: 20px;
+}
+
+/* Love Button */
+
+.love-btn {
+    @include borall(solid, 1px, $night);
+    @include footcol($light, $love, $night);
+    margin-top: 12px;
+    border-radius: 12px;
+    font-size: 30px;
+}
+
+#love-score,
+#love-comment {
+    font-size: 40px;
+    padding: 25px;
+}

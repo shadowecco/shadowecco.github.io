@@ -2,6 +2,7 @@
 
 $(document).ready(function () {
   /* Main Elements */
+
   //Page Nav
   $(".page-navbar").load("./assets/page-elements/main.html #page-nav");
 

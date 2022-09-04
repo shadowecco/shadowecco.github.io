@@ -12,8 +12,9 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.ico" />
 
-  <!-- Font Awesome Icons 6.2.0 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" id="font-awesome"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../../../css/styles.css" />
@@ -22,8 +23,11 @@
   <!-- Specific Stylesheet -->
   <link rel="stylesheet" href="./styles/styles.css" />
 
-  <!-- JQuery 3.6.0 -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- JQuery -->
+  <script id="jquery" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Boilerplate Javascript -->
+  <script defer src="../../projects-boilerplate.js"></script>
 
   <!-- Main Javascript -->
   <script type="text/javascript" src="../../../js/main.js"></script>
@@ -41,8 +45,9 @@
   <!-- Project Area -->
   <div class="project-area">
     <div class="container">
-      <h1 id="title" class="title">Welcome to the Game</h1>
-      <h1 id="refresh" class="refresh">Refresh to Play</h1>
+      <h1 id="gametitle" class="gametitle">Welcome to the Game</h1>
+      <h1 id="refresh" class="refresh"><i class="fas fa-sync-alt reset-icon" title="Reset"
+          onclick="window.location.reload()"></i>  Refresh to Play</h1>
 
       <!-- Dice and Players -->
       <div id="dice" class="dice">

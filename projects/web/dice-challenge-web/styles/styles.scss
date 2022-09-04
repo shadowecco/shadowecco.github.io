@@ -55,7 +55,7 @@ h1 {
   margin-top: 30px;
 }
 
-.title {
+.gametitle {
   font-family: $lobster;
   text-shadow: 5px 0 $shadow;
   font-size: 64px;
@@ -65,6 +65,12 @@ h1 {
   font-family: $indieflower;
   text-shadow: 5px 0 $shadow;
   font-size: 50px;
+}
+
+.reset-icon {
+  font-size: 50px;
+  cursor: pointer;
+  padding-bottom: 20px;
 }
 
 p {

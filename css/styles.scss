@@ -49,17 +49,18 @@ body {
 
 /* Header */
 
-.header {
+.home-header,
+.gallery-header {
   @include padding-allround(50px, 100px, 50px, 100px);
   background-color: $skyblue;
   text-align: center;
-  font-family: $honeybeereg;
   background: url("../../assets/images/hello-spring.jpg") top left no-repeat;
   background-size: contain;
   background-size: 100%;
 }
 
 .home-header {
+  font-family: $honeybeereg;
   line-height: 1em;
 }
 

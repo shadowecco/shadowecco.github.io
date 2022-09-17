@@ -40,6 +40,25 @@ function flameimgFunction() {
   );
 }
 
+//Javascript Array Creator
+
+function arrayprojectFunction() {
+  window.open("https://shadowecco.github.io/projects/web/javascript-array-maker-web", "_blank");
+}
+
+function arraygitFunction() {
+  window.open(
+    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/javascript-array-maker-web",
+    "_blank"
+  );
+}
+
+function arrayimgFunction() {
+  window.open(
+    "https://unsplash.com/photos/OQ48N5FDW1w", "_blank"
+  );
+}
+
 //Love Generator
 
 function loveprojectFunction() {

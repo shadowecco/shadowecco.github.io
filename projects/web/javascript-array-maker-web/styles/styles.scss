@@ -1,0 +1,151 @@
+/* SASS Import Files */
+
+@import "../../../../css/_elements.scss";
+
+/* Body */
+html {
+  @include html();
+}
+
+body {
+  @include body();
+  text-align: center;
+  font-family: $arial;
+  background-color: $lilac;
+}
+
+/* Git Button */
+
+.projectgit {
+  @include projgitbut();
+  @include gitbutcol($light, $light);
+}
+
+.projectgit:hover {
+  @include projgithover();
+  @include gitbutcol($light, $light);
+}
+
+/* Array Converter */
+
+.header {
+  background-color: $lavendar;
+  padding: 7px;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+h1,
+.area-heading {
+  color: $light;
+  font-weight: bold;
+}
+
+p {
+  @include martb(20px, 20px);
+  color: $light;
+  text-align: center;
+}
+
+.array-container {
+  @include marrl(125px, 125px);
+}
+
+.area-heading,
+.instruct {
+  text-align: left;
+}
+
+textarea {
+  @include borall(solid, 1px, $night);
+  padding-left: 5px;
+  display: block;
+  margin-top: 10px;
+}
+
+#array-name,
+#input-area,
+#output-area {
+  background-color: $light;
+}
+
+#array-name {
+  width: 20%;
+  height: 18px;
+  border-radius: 5px;
+}
+
+#input-area,
+#output-area {
+  border-radius: 10px;
+  height: 150px;
+  width: 100%;
+}
+
+textarea,
+::placeholder {
+  font-family: $arial;
+  font-size: 15px;
+}
+
+::placeholder {
+  color: $night;
+  opacity: 0.5;
+}
+
+#input-area::placeholder,
+#output-area::placeholder {
+  padding-top: 5px;
+}
+
+.instruct-inline {
+  display: inline;
+  color: $light;
+}
+
+/* Converter Button */
+
+.array-button,
+.clear-button {
+  @include borall(solid, 1px, $night);
+  @include margin-allround(20px, 20px, 0px, 0px);
+  width: 16%;
+  background-color: $lavendar;
+  color: $light;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  font-size: 16px;
+  height: 49px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.array-button:hover {
+  background-color: $dark-lavendar;
+}
+
+#button-container {
+  @include margin-allround(10px, 0px, 50px, 0px);
+  padding: 0px;
+}
+
+/* Footer */
+
+.contact-logo {
+  @include contact-logo();
+}
+
+.project-footer {
+  @include page-footer();
+  @include footcol($lavendar, $ubuntu, $light);
+  @include linx($light, $light, $light, $light);
+}
+
+.credits a,
+a:visited {
+  color: $light;
+}

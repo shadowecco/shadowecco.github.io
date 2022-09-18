@@ -288,263 +288,21 @@ html {
 body {
   margin: 0 auto;
   min-height: 100vh;
-}
-
-/* Nav Bar */
-.page-nav {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #bdf3ff;
+  text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  overflow: hidden;
-  text-decoration: none;
-  width: 100%;
-}
-
-.brand,
-.nav-link,
-.link {
-  padding-right: 25px;
-  padding-left: 25px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.brand-image {
-  height: 30px;
-  width: 30px;
-}
-
-.brand {
-  padding-left: 50px;
-  font-family: "Honey", cursive;
-  font-size: 25px;
-}
-
-.nav-links {
-  font-family: "Ubuntu", sans-serif;
-  color: #376c77;
-  font-size: 18px;
-  font-weight: bold;
-  padding-right: 50px;
-}
-.nav-links a {
-  color: #376c77;
-}
-.nav-links a:visited {
-  color: #376c77;
-}
-.nav-links a:hover {
-  color: #376c77;
-}
-.nav-links a:active {
-  color: #376c77;
-}
-
-/* Header */
-.site-header {
-  padding-top: 50px;
-  padding-right: 100px;
-  padding-bottom: 50px;
-  padding-left: 100px;
-  background-color: #bdf3ff;
-  text-align: center;
-  background: url("../../assets/images/hello-spring.jpg") top left no-repeat;
-  background-size: contain;
+  background-image: url(../images/fantasy-by-johannes-plenio-unsplash.jpg);
   background-size: 100%;
-}
-
-.home-header {
-  font-family: "HoneyBee Regular", cursive;
-  line-height: 1em;
-}
-
-.header-title {
-  padding-top: 60px;
-  font-size: 100px;
-  font-weight: bold;
-}
-
-.header-subtitle {
-  padding-top: 50px;
-  font-size: 65px;
-}
-
-.gallery-header-title {
-  font-size: 100px;
-  font-weight: bold;
-  line-height: 1em;
-}
-
-.gallery-header-subtitle {
-  font-size: 40px;
-  line-height: 1em;
-}
-
-/* Logos */
-.logos-section,
-.welcome-section,
-.skills-section,
-.hobbies-section,
-.cert-title-section,
-.gallery-section,
-.page-line {
+  background-repeat: no-repeat;
+  font-family: "Charm", cursive;
+  color: white;
   text-align: center;
+  font-weight: 700;
 }
 
-.logo {
-  padding-top: 50px;
-  padding-right: 100px;
-  padding-bottom: 50px;
-  padding-left: 100px;
-  max-height: 250px;
-  max-width: 250px;
-  height: auto;
-  width: auto;
-}
-
-.me-logo {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  max-height: 175px;
-  max-width: 175px;
-  height: auto;
-  width: auto;
-}
-
-.pline {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  max-height: 300px;
-  max-width: 300px;
-  height: auto;
-  width: auto;
-}
-
-/* Intro */
-.welcome-title,
-.cert-title,
-.skills-title,
-.hobbies-title,
-.gallery-samp-title {
-  font-family: "HoneyBee Regular", cursive;
-  color: black;
-  font-size: 50px;
-  font-weight: bold;
-}
-
-.welcome-text,
-.cert-section {
-  padding-top: 20px;
-  padding-right: 50px;
-  padding-bottom: 20px;
-  padding-left: 50px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.welcome-text {
-  margin-right: 250px;
-  margin-left: 250px;
-}
-
-.gallery-section,
-.cert-section {
-  margin-right: 150px;
-  margin-left: 150px;
-}
-
-.gallery-section,
-.cert-section,
-.cert-link,
-.welcome-text {
-  font-family: "Ubuntu", sans-serif;
-  color: black;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-/* Gallery and Certs*/
-.gallery-header,
-.gallery-subtitle,
-.gallery-content {
-  font-family: "Architects Daughter", cursive;
-}
-
-.gallery-title {
-  font-family: "Architects Daughter", cursive;
-  color: black;
-  font-size: 50px;
-  font-weight: bold;
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-top: 20px;
-  text-align: center;
-}
-
-.gallery-card {
-  border-radius: 3.2px;
-  width: 350px;
-  line-height: 1.2em;
-}
-
-.gallery-card-image {
-  height: 200px;
-  width: 100%;
-}
-
-.cert-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.cert-card {
-  border-radius: 10px;
-  width: 290px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ccc;
-}
-
-.cert-card-image {
-  height: 200px;
-  width: 200px;
-  padding-top: 10px;
-}
-
-.gallery-img,
-.cert-img {
-  background-size: cover;
-  background-position: center;
-}
-
-.gallery-content {
-  padding: 15px;
-}
-
-.gallery-card,
-.gallery-btn,
-.project-btn,
-.img-btn,
-.codepen-btn {
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-}
-
-.gallery-btn {
+/* Git Button */
+.projectgit {
   padding-top: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
@@ -555,179 +313,127 @@ body {
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: transparent;
+  font-size: 18px;
+  color: white;
+  border-color: white;
 }
 
-.project-btn,
-.gitcode-btn,
-.img-btn {
+.projectgit:hover {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  background-color: #376c77;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #2196f3;
+  font-size: 18px;
+  color: white;
+  border-color: white;
+}
+
+.royal-name {
+  font-size: 60px;
+}
+
+/* Buttons */
+.male-button,
+.female-button,
+.random-button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  font-family: "Charm", cursive;
+  padding: 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.btn-primary-spacing {
+  margin: 15px;
+}
+
+/* Container to reveal Name */
+.name-container {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: none;
+  background-color: rgba(128, 128, 128, 0.5);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+  height: auto;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+.name {
+  text-align: center;
+  font-family: "Charm", cursive;
+  font-size: 32px;
   color: white;
 }
 
-.gitcode-btn {
-  background-color: #2196f3;
+.reset-icon {
+  font-size: 50px;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.img-btn {
-  background: #c8a2c8;
-}
-
-.new-project,
-.updated-project {
-  -webkit-animation: animate 1.8s linear infinite;
-          animation: animate 1.8s linear infinite;
-  line-height: 0.5em;
-}
-
-.new-project {
-  font-family: "Architects Daughter", cursive;
-  color: red;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.updated-project {
-  font-family: "Architects Daughter", cursive;
-  color: green;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-@-webkit-keyframes animate {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes animate {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-/* Skills and Hobbies */
-.skills-rows {
-  padding-top: 10px;
-  padding-right: 250px;
-  padding-bottom: 10px;
-  padding-left: 250px;
-}
-
-.skills-rows,
-.skills-progress-text {
-  display: flex;
-  justify-content: space-between;
-}
-
-.skills-row-1,
-.skills-row-2 {
-  width: 45%;
-}
-
-.progress-bar {
-  background-color: #376c77;
-  height: 20px;
-}
-
-.skills-progress-text {
-  font-family: "Ubuntu", sans-serif;
-  color: black;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.hobby-title {
-  font-family: "Ubuntu", sans-serif;
-  color: black;
-  font-size: 15px;
-  font-weight: normal;
-}
-
-.hobbies-row {
-  padding-right: 300px;
-  padding-left: 300px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-}
-
-.hobby-box {
-  text-align: center;
-  display: inline-block;
-  color: #376c77;
-}
-
-.hobby {
-  max-height: 150px;
-  max-width: 150px;
-  height: auto;
-  width: auto;
+/* Links */
+a,
+a:visited {
+  text-decoration: underline;
 }
 
 /* Footer */
-.site-footer,
-.gallery-footer {
-  width: 100%;
-  box-sizing: border-box;
-  bottom: 0;
-  margin-top: 10px;
-  text-align: center;
-  font-weight: bold;
-}
-.site-footer a,
-.gallery-footer a {
-  color: #376c77;
-}
-.site-footer a:visited,
-.gallery-footer a:visited {
-  color: #376c77;
-}
-.site-footer a:hover,
-.gallery-footer a:hover {
-  color: #376c77;
-}
-.site-footer a:active,
-.gallery-footer a:active {
-  color: #376c77;
-}
-
-.site-footer {
-  background-color: #bdf3ff;
-  font-family: "Summerbee", sans-serif;
-  color: #376c77;
-}
-
-.gallery-footer {
-  background-color: #bdf3ff;
-  font-family: "Architects Daughter", cursive;
-  color: #376c77;
-}
-
 .contact-logo {
   padding-right: 12px;
   padding-left: 12px;
   font-size: 30px;
 }
 
-.contacts {
-  margin-bottom: 10px;
+.project-footer {
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
+  font-family: "Charm", cursive;
+  color: white;
+}
+.project-footer a {
+  color: white;
+}
+.project-footer a:visited {
+  color: white;
+}
+.project-footer a:hover {
+  color: white;
+}
+.project-footer a:active {
+  color: white;
 }
 
-.credits,
-.copyright,
-.powered {
-  margin: 0;
-  opacity: 0.7;
-  font-size: 15px;
+.credits a,
+a:visited {
+  color: white;
 }/*# sourceMappingURL=styles.css.map */

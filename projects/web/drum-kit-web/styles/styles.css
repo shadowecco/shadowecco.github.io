@@ -42,6 +42,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "Charm";
+  src: url("../../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "Honey";
   src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
   font-weight: normal;
@@ -117,6 +123,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "Charm";
+  src: url("../../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "Honey";
   src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
   font-weight: normal;
@@ -171,6 +183,12 @@
 @font-face {
   font-family: "Anakin Mono";
   src: url("../../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Charm";
+  src: url("../../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

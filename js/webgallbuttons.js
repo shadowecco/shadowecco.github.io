@@ -40,6 +40,25 @@ function flameimgFunction() {
   );
 }
 
+//Fantasy Name Generator
+
+function nameprojectFunction() {
+  window.open("https://shadowecco.github.io/projects/web/fantasy-name-generator-web", "_blank");
+}
+
+function namegitFunction() {
+  window.open(
+    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/fantasy-name-generator-web",
+    "_blank"
+  );
+}
+
+function nameimgFunction() {
+  window.open(
+    "https://unsplash.com/photos/DKix6Un55mw", "_blank"
+  );
+}
+
 //Javascript Array Creator
 
 function arrayprojectFunction() {

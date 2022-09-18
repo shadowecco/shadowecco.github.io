@@ -20,10 +20,18 @@
 
 /* Imported Fonts */
 
-//Anakin Mono (https://www.dafont.com/star-jedi.font)
+//Anakin Mono (https://www.starwarsfont.com/fonts/anakin_mono/)
 @font-face {
   font-family: "Anakin Mono";
   src: url("../../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+//Charm (https://www.cufonfonts.com/font/charm)
+@font-face {
+  font-family: "Charm";
+  src: url("../../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -61,7 +69,6 @@
 }
 
 /* Love Font (https://www.cufonfonts.com/font/love)*/
-
 @font-face {
   font-family: "Love";
   src: url("../../../assets/fonts/Love/Love.woff") format("woff");
@@ -70,7 +77,6 @@
 }
 
 /* Peace Child (https://www.1001fonts.com/peacechild-font.html)*/
-
 @font-face {
   font-family: "Peace Child";
   src: url("../../../assets/fonts/Peace-Child/Peace-Child.ttf") format("truetype");
@@ -78,7 +84,7 @@
   font-style: normal;
 }
 
-//Star Jedi (https://www.dafont.com/star-jedi.font)
+//Star Jedi (https://www.starwarsfont.com/fonts/star_jedi)
 @font-face {
   font-family: "Star Jedi";
   src: url("../../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");

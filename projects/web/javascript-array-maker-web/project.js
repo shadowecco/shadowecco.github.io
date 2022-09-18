@@ -5,6 +5,9 @@ $(document).ready(function () {
     "../../../assets/page-elements/main.html #contacts"
   );
 
+  //Footer Credits
+  $(".project-credits").remove();
+
   /* Function to make Javascript Array */
 
   $("#array-button").on("click", function () {
@@ -20,6 +23,8 @@ $(document).ready(function () {
     output += "]";
     $("#output-area").val(output);
   })
+
+  /* Function to clear text areas */
 
   $("#clear-button").on("click", function () {
     document.getElementById("array-name").value = "";

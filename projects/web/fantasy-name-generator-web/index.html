@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Fantasy Name Generator</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.ico" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" id="font-awesome"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../../../css/styles.css" />
+  <link rel="stylesheet" href="../../../assets/flaticon/flaticon.css" />
+
+  <!-- Specific Stylesheet -->
+  <link rel="stylesheet" href="./styles/styles.css" />
+
+  <!-- JQuery -->
+  <script id="jquery" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Boilerplate Javascript -->
+  <script defer src="../../../js/main-boilerplate.js"></script>
+
+  <!-- Main Javascript -->
+  <script type="text/javascript" src="../../../js/main.js"></script>
+
+  <!-- Specific Javascript -->
+  <script type="text/javascript" src="./js/project.js"></script>
+</head>
+
+<body>
+  <!-- Github Button -->
+  <button id="projgit-but projectgit" class="projectgit" onclick="gitFunction()">
+    <i class="fab fa-github"></i> View Project Code at GitHub
+  </button>
+
+  <h1 id="royal-name" class="royal-name">Fantasy Name Generator</h1>
+
+  <!-- Container to reveal random name -->
+  <div class="name-container" id="name-container">
+    <div class="reveal-name" id="reveal-name">
+      <p class="name" id="name"></p>
+    </div>
+  </div>
+
+  <!-- Name Buttons -->
+  <div class="button-container" id="button-container">
+    <button class="male-button btn-primary-spacing" id="male-button" onclick="maleName()">Male</button>
+    <button class="female-button btn-primary-spacing" id="female-button" onclick="femaleName()">Female</button>
+    <button class="random-button btn-primary-spacing" id="random-button" onclick="ranName()">Random</button>
+    <br>
+    <div class="reset" id="reset"><i class="fas fa-sync-alt reset-icon" title="Reset"
+        onclick="window.location.reload()"></i>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer project-footer">
+    &nbsp
+    <!-- Contacts -->
+    <div id="contacts" class="contacts project-contacts"></div>
+
+    <!-- Copyright -->
+    <div id="copyright" class="copyright">Copyright</div>
+
+    <!-- Credits-->
+    <div class="credits project-credits">Credits</div>
+
+    <!-- Powered by -->
+    <div class="powered">
+      &#128029; Powered by chocolate, tea and coding &#128029;
+    </div>
+    &nbsp
+  </footer>
+</body>
+
+</html>

@@ -423,11 +423,6 @@ textarea,
   padding-top: 5px;
 }
 
-.instruct-inline {
-  display: inline;
-  color: white;
-}
-
 /* Converter Button */
 .array-button,
 .clear-button {

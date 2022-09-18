@@ -49,8 +49,7 @@ body {
 
 /* Header */
 
-.home-header,
-.gallery-header {
+.site-header {
   @include padding-allround(50px, 100px, 50px, 100px);
   background-color: $skyblue;
   text-align: center;

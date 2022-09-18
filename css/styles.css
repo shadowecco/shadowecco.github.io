@@ -326,8 +326,7 @@ body {
 }
 
 /* Header */
-.home-header,
-.gallery-header {
+.site-header {
   padding-top: 50px;
   padding-right: 100px;
   padding-bottom: 50px;

@@ -40,6 +40,25 @@ function flameimgFunction() {
   );
 }
 
+//Rock Papr Scissors
+
+function rpsprojectFunction() {
+  window.open("https://shadowecco.github.io/projects/web/rock-paper-scissors-web", "_blank");
+}
+
+function rpsgitFunction() {
+  window.open(
+    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/rock-paper-scissors-web",
+    "_blank"
+  );
+}
+
+function rpsimgFunction() {
+  window.open(
+    "https://unsplash.com/@imanitor", "_blank"
+  );
+}
+
 //Fantasy Name Generator
 
 function nameprojectFunction() {

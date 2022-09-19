@@ -25,7 +25,7 @@ $(document).ready(function () {
 
 function gitFunction() {
   window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/",
+    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/fantasy-name-generator-web",
     "_blank"
   );
 }

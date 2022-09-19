@@ -1,0 +1,162 @@
+/* SASS Import Files */
+
+@import "../../../../css/_elements.scss";
+
+$images: "../images";
+
+/* Body */
+html {
+  @include html();
+}
+
+body {
+  @include body();
+  @include body-container();
+  background-color: $indigo;
+  color: $light;
+  text-align: center;
+}
+
+/* Git Button */
+.projectgit {
+  @include projgitbut();
+  @include gitbutcol($light, $light);
+}
+
+.projectgit:hover {
+  @include projgithover();
+  @include gitbutcol($light, $light);
+}
+
+/* Header */
+header {
+  @include borall(solid, 3px, $light);
+  color: $light;
+  width: 450px;
+  margin-bottom: 5px;
+}
+
+header>h1 {
+  font-family: $shadowslight;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Score Board */
+.score-board {
+  @include padding-allround(15px, 20px, 15px, 20px);
+  @include borall(solid, 3px, $light);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: $raleway;
+  width: 150px;
+  color: $light;
+  font-size: 46px;
+  position: relative;
+}
+
+.badge {
+  @include padding-allround(2px, 10px, 2px, 10px);
+  background: $light-red;
+  font-size: 10px;
+}
+
+#user-name {
+  font-size: 10px;
+  margin-bottom: 35px;
+}
+
+#user-label,
+#computer-label {
+  position: absolute;
+  top: 30px;
+}
+
+#user-label {
+  left: -25px;
+}
+
+#computer-label {
+  right: -30px;
+}
+
+/* Game Result */
+.result {
+  margin-top: -10px;
+  font-family: $shadowslight;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Choices */
+.player {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.user-choices,
+.computer-choices {
+  @include martb(-25px, 0px);
+  display: inline-block;
+  font-family: $shadowslight;
+  text-align: center;
+}
+
+.user-choices {
+  margin-right: 100px;
+}
+
+.computer-choices {
+  margin-left: 100px;
+}
+
+.user-choice,
+.computer-choice,
+.choice-icon {
+  @include margin-allround(0px, 25px, 20px, 25px);
+  display: inline-block;
+}
+
+.selected {
+  color: $selected  !important;
+}
+
+/* Reset */
+
+.reset,
+.reset-icon {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.reset {
+  font-family: $shadowslight;
+}
+
+/* Links */
+
+a,
+a:visited {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.contact-logo {
+  @include contact-logo();
+}
+
+.project-footer {
+  @include page-footer();
+  @include footcol(transparent, $shadowslight, $light);
+  @include linx($light, $light, $light, $light);
+}
+
+.credits a,
+a:visited {
+  color: $light;
+}

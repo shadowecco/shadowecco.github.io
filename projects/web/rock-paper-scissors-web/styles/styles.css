@@ -295,8 +295,12 @@ body {
   margin: 0 auto;
   min-height: 100vh;
   text-align: center;
-  font-family: "Arial", sans-serif;
-  background-color: #c8a2c8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #233067;
+  color: white;
+  text-align: center;
 }
 
 /* Git Button */
@@ -342,144 +346,132 @@ body {
   border-color: white;
 }
 
-/* Array Converter */
-.array-header {
-  background-color: #a06ab4;
-  padding: 7px;
+/* Header */
+header {
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  color: white;
+  width: 450px;
+  margin-bottom: 5px;
 }
 
-h1 {
+header > h1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 50px;
+  font-weight: bold;
   text-align: center;
 }
 
-h1,
-.area-heading {
+/* Score Board */
+.score-board {
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  width: 150px;
   color: white;
+  font-size: 46px;
+  position: relative;
+}
+
+.badge {
+  padding-top: 2px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  background: #E2584D;
+  font-size: 10px;
+}
+
+#user-name {
+  font-size: 10px;
+  margin-bottom: 35px;
+}
+
+#user-label,
+#computer-label {
+  position: absolute;
+  top: 30px;
+}
+
+#user-label {
+  left: -25px;
+}
+
+#computer-label {
+  right: -30px;
+}
+
+/* Game Result */
+.result {
+  margin-top: -10px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  text-align: center;
   font-weight: bold;
 }
 
-p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: white;
+/* Choices */
+.player {
+  font-size: 50px;
+  font-weight: bold;
   text-align: center;
 }
 
-.array-container {
-  margin-right: 125px;
-  margin-left: 125px;
-}
-
-.area-heading,
-.instruct {
-  text-align: left;
-}
-
-textarea {
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-  padding-left: 5px;
-  display: block;
-  margin-top: 10px;
-}
-
-#array-name,
-#input-area,
-#output-area {
-  background-color: white;
-}
-
-#array-name {
-  width: 20%;
-  height: 18px;
-  border-radius: 5px;
-}
-
-#input-area,
-#output-area {
-  border-radius: 10px;
-  height: 150px;
-  width: 100%;
-}
-
-::-moz-placeholder {
-  font-family: "Arial", sans-serif;
-  font-size: 15px;
-}
-
-:-ms-input-placeholder {
-  font-family: "Arial", sans-serif;
-  font-size: 15px;
-}
-
-textarea,
-::placeholder {
-  font-family: "Arial", sans-serif;
-  font-size: 15px;
-}
-
-::-moz-placeholder {
-  color: black;
-  opacity: 0.5;
-}
-
-:-ms-input-placeholder {
-  color: black;
-  opacity: 0.5;
-}
-
-::placeholder {
-  color: black;
-  opacity: 0.5;
-}
-
-#input-area::-moz-placeholder, #output-area::-moz-placeholder {
-  padding-top: 5px;
-}
-
-#input-area:-ms-input-placeholder, #output-area:-ms-input-placeholder {
-  padding-top: 5px;
-}
-
-#input-area::placeholder,
-#output-area::placeholder {
-  padding-top: 5px;
-}
-
-/* Converter Button */
-.array-button,
-.clear-button {
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-  margin-top: 20px;
-  margin-right: 20px;
+.user-choices,
+.computer-choices {
+  margin-top: -25px;
   margin-bottom: 0px;
-  margin-left: 0px;
-  width: 16%;
-  background-color: #a06ab4;
-  color: white;
-  text-align: center;
-  -webkit-text-decoration: bold;
-          text-decoration: bold;
   display: inline-block;
-  font-size: 16px;
-  height: 49px;
-  cursor: pointer;
-  border-radius: 10px;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
 }
 
-.array-button:hover {
-  background-color: #734f96;
+.user-choices {
+  margin-right: 100px;
 }
 
-#button-container {
-  margin-top: 10px;
-  margin-right: 0px;
-  margin-bottom: 50px;
-  margin-left: 0px;
-  padding: 0px;
+.computer-choices {
+  margin-left: 100px;
+}
+
+.user-choice,
+.computer-choice,
+.choice-icon {
+  margin-top: 0px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.selected {
+  color: rgb(37, 30, 30) !important;
+}
+
+/* Reset */
+.reset,
+.reset-icon {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.reset {
+  font-family: "Shadows Into Light", cursive;
+}
+
+/* Links */
+a,
+a:visited {
+  text-decoration: underline;
 }
 
 /* Footer */
@@ -496,8 +488,8 @@ textarea,
   margin-top: 10px;
   text-align: center;
   font-weight: bold;
-  background-color: #a06ab4;
-  font-family: "Ubuntu", sans-serif;
+  background-color: transparent;
+  font-family: "Shadows Into Light", cursive;
   color: white;
 }
 .project-footer a {

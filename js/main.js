@@ -41,5 +41,6 @@ $(document).ready(function () {
   $(".gallery-header").load("../../assets/page-elements/site-elements/gallery.html #gallery-header");
   $(".galleryweb").load("../../assets/page-elements/gallery/gallweb.html #gallery-section");
   $(".gallerypython").load("../../assets/page-elements/gallery/gallpyth.html #gallery-section");
+  // $(".galleryongoing").load("../../assets/page-elements/gallery/gallongoing.html #gallery-section");
 });
 

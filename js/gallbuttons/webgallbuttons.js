@@ -19,28 +19,7 @@ function imgFunction() {
   );
 }
 
-/*WEB*/
-
-//Flame Game
-
-function flameprojectFunction() {
-  window.open("https://shadowecco.github.io/projects/web/flame-game-web", "_blank");
-}
-
-function flamegitFunction() {
-  window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/flame-game-web",
-    "_blank"
-  );
-}
-
-function flameimgFunction() {
-  window.open(
-    "https://unsplash.com/photos/-CaJIE1MiA4", "_blank"
-  );
-}
-
-//Rock Papr Scissors
+//Rock Paper Scissors
 
 function rpsprojectFunction() {
   window.open("https://shadowecco.github.io/projects/web/rock-paper-scissors-web", "_blank");
@@ -110,6 +89,12 @@ function lovegitFunction() {
   window.open(
     "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/love-generator-web",
     "_blank"
+  );
+}
+
+function loveimgFunction() {
+  window.open(
+    "https://unsplash.com/photos/hBzrr6m6-pc", "_blank"
   );
 }
 
@@ -184,12 +169,6 @@ function simongitFunction() {
 function simonimgFunction() {
   window.open(
     "https://unsplash.com/photos/I4YsI1zWq_w", "_blank"
-  );
-}
-
-function loveimgFunction() {
-  window.open(
-    "https://unsplash.com/photos/hBzrr6m6-pc", "_blank"
   );
 }
 

@@ -278,11 +278,15 @@ $bluefire: rgb(243, 49, 0); */
 }
 
 .sass-badge {
-  color: #CD6799;
+  color: #Cd6799;
 }
 
 .js-badge {
   color: #f0db4f;
+}
+
+.python-badge {
+  color: #4b8bbe;
 }
 
 /* Body */

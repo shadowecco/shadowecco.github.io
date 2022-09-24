@@ -7,30 +7,6 @@ $(document).ready(function () {
 
   //Footer Credits
   $(".project-credits").remove();
-
-  /* Function to make Javascript Array */
-
-  $("#array-button").on("click", function () {
-    var arrayName = document.getElementById("array-name").value;
-    var input = $("#input-area").val().split("\n");
-    var output = "var " + arrayName + " = [";
-    for (var i = 0; i < input.length; i++) {
-      output += "\"" + input[i] + "\"";
-      if (i < input.length - 1) {
-        output += ",";
-      }
-    }
-    output += "]";
-    $("#output-area").val(output);
-  })
-
-  /* Function to clear text areas */
-
-  $("#clear-button").on("click", function () {
-    document.getElementById("array-name").value = "";
-    document.getElementById("input-area").value = "";
-    document.getElementById("output-area").value = "";
-  })
 });
 
 /* Activate Git Button Link */
@@ -41,3 +17,27 @@ function gitFunction() {
     "_blank"
   );
 }
+
+/* Function to make Javascript Array */
+
+$("#array-button").on("click", function () {
+  var arrayName = document.getElementById("array-name").value;
+  var input = $("#input-area").val().split("\n");
+  var output = "var " + arrayName + " = [";
+  for (var i = 0; i < input.length; i++) {
+    output += "\"" + input[i] + "\"";
+    if (i < input.length - 1) {
+      output += ",";
+    }
+  }
+  output += "]";
+  $("#output-area").val(output);
+})
+
+/* Function to clear text areas */
+
+$("#clear-button").on("click", function () {
+  $("array-name").value = "";
+  $("input-area").value = "";
+  $("output-area").value = "";
+})

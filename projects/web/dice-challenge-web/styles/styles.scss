@@ -92,7 +92,6 @@ img {
   @include page-footer();
   @include footcol(transparent, $indieflower, $seagreen);
   @include linx($seagreen, $seagreen, $seagreen, $seagreen);
-  position: fixed;
 }
 
 .credits a,

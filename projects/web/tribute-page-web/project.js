@@ -1,6 +1,7 @@
 /* Load Contents of Page */
 
 $(document).ready(function () {
+  //Project Area
   $(".project-area").load("./page-elements/project.html");
   //Footer Contacts
   $(".project-contacts").load(

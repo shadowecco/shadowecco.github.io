@@ -1,14 +1,16 @@
 //Basic Site Colours
 $night: black;
 $light: white;
-
+$transparent: transparent;
 
 $light-grey: #d3d3d3;
 $silver: #ccc;
 $dark-grey: #393e46;
 
 $github: #2196f3;
+$medblue: #006699;
 $skyblue: #bdf3ff;
+$paleblue: #f2f7f8;
 $pastelblue: #6ba0ab;
 $darkblue: #376c77;
 $indigo: #233067;
@@ -16,6 +18,9 @@ $indigo: #233067;
 $lilac: #c8a2c8;
 $lavendar: #a06ab4;
 $dark-lavendar: #734f96;
+
+$silver-glass: rgba($silver, .05);
+$lilac-glass: rgba($lilac, .05);
 
 //Skills Badges
 $halloween: #f16529; //HTML

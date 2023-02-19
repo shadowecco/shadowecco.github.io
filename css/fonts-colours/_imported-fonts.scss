@@ -6,6 +6,9 @@
 //Boogaloo
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
 
+//Josefin Sans
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 //Lobster
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
 
@@ -38,6 +41,14 @@
 @font-face {
   font-family: "Charm";
   src: url("../../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+//Enchanted Land (https://www.dafont.com/enchanted-land.font)
+@font-face {
+  font-family: "Enchanted Land";
+  src: url("../../assets/fonts/Enchanted-Land/Enchanted-Land.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }

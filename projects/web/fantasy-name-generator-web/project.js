@@ -6,19 +6,24 @@ $(document).ready(function () {
   );
 
   //Footer Credits
-  var picloc = "https://unsplash.com/photos/DKix6Un55mw";
-  var artloc = "https://unsplash.com/@jplenio";
-  var siteloc = "https://unsplash.com";
 
-  $(".project-credits").html(
-    '<a href="' +
-    picloc +
-    '">Image</a> by <a href="' +
-    artloc +
-    '">Johannes Plenio</a> on <a href="' +
-    siteloc +
-    '">Unsplash</a>'
-  );
+  var unSplash = "https://unsplash.com/"
+
+  function projectFooterText(picloc, artloc, artName, siteloc, siteName) {
+
+    $(".project-credits").html(
+      '<a href="' +
+      picloc +
+      '">Image</a> by <a href="' +
+      artloc +
+      '"> ' + artName + ' </a> on <a href="' +
+      siteloc +
+      '">' + siteName + '</a>'
+    );
+  }
+
+  projectFooterText('https://unsplash.com/photos/DKix6Un55mw', 'https://unsplash.com/@jplenio', 'Johannes Plenio', unSplash, 'Unsplash')
+
 });
 
 /* Activate Git Button Link */

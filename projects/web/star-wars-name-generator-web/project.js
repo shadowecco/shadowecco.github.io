@@ -5,21 +5,30 @@ $(document).ready(function () {
     "../../../assets/page-elements/main.html #contacts"
   );
 
-  //Footer Credits
-  var picloc = "https://unsplash.com/photos/EpIUbeFrqwQ";
-  var artloc = "https://unsplash.com/@caderoberts432";
-  var siteloc = "https://unsplash.com";
 
-  $(".project-credits").html(
-    '<a href="' +
-    picloc +
-    '">Image</a> by <a href="' +
-    artloc +
-    '">Cade Roberts</a> on <a href="' +
-    siteloc +
-    '">Unsplash</a>'
-  );
+  //Footer Credits
+
+  var unSplash = "https://unsplash.com/"
+
+  function projectFooterText(picloc, artloc, artName, siteloc, siteName) {
+
+    $(".project-credits").html(
+      '<a href="' +
+      picloc +
+      '">Image</a> by <a href="' +
+      artloc +
+      '"> ' + artName + ' </a> on <a href="' +
+      siteloc +
+      '">' + siteName + '</a>'
+    );
+  }
+
+  projectFooterText('https://unsplash.com/photos/EpIUbeFrqwQ', 'https://unsplash.com/@caderoberts432', 'Cade Roberts', unSplash, 'Unsplash')
+
 });
+
+
+
 
 /* Activate Git Button Link */
 

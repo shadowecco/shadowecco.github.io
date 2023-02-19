@@ -6,20 +6,25 @@ $(document).ready(function () {
     "../../../assets/page-elements/main.html #contacts"
   );
 
-  //Footer Credits
-  var picloc = "https://unsplash.com/photos/hBzrr6m6-pc";
-  var artloc = "https://unsplash.com/@jamie452";
-  var siteloc = "https://unsplash.com";
 
-  $(".project-credits").html(
-    '<a href="' +
-    picloc +
-    '">Image</a> by <a href="' +
-    artloc +
-    '">Jamie Street</a> on <a href="' +
-    siteloc +
-    '">Unsplash</a>'
-  );
+  //Footer Credits
+
+  var unSplash = "https://unsplash.com/"
+
+  function projectFooterText(picloc, artloc, artName, siteloc, siteName) {
+
+    $(".project-credits").html(
+      '<a href="' +
+      picloc +
+      '">Image</a> by <a href="' +
+      artloc +
+      '"> ' + artName + ' </a> on <a href="' +
+      siteloc +
+      '">' + siteName + '</a>'
+    );
+  }
+
+  projectFooterText('https://unsplash.com/photos/hBzrr6m6-pc', 'https://unsplash.com/@jamie452', 'Jamie Street', unSplash, 'Unsplash')
 });
 
 /* Activate Git Button Link */

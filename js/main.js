@@ -18,15 +18,26 @@ $(document).ready(function () {
 
   //Footer Credits
 
-  var picloc = "https://www.google.com/?xyz=";
-  var siteloc = "https://www.google.com/?xyz=";
+  var freePikLink = "https://www.freepik.com"
 
-  $('.site-credits').html(
-    '<a href="' +
-    picloc +
-    '">Image</a> by <a href="' +
-    siteloc +
-    '">Freepik</a>');
+  function projectFooterText(picloc, artloc, artName, siteloc, siteName) {
+
+    $(".project-credits").html(
+      '<a href="' +
+      picloc +
+      '">Image</a> by <a href="' +
+      artloc +
+      '"> ' + artName + ' </a> on <a href="' +
+      siteloc +
+      '">' + siteName + '</a>'
+    );
+  }
+
+
+  projectFooterText('https://www.freepik.com/free-vector/hello-spring-background_4006230.htm', 'https://www.freepik.com/author/freepik', 'freePik', freePikLink, 'freepik')
+
+  //Powered
+  $(".powered").html('&#128029; Powered by chocolate, tea and coding &#128029;')
 
   //Home Elements
   $(".home-header").load("../../assets/page-elements/site-elements/home.html #home-header");
@@ -37,10 +48,19 @@ $(document).ready(function () {
   $(".hobbies").load("../../assets/page-elements/site-elements/hobbies.html");
 
   //Gallery
-
   $(".gallery-header").load("../../assets/page-elements/site-elements/gallery.html #gallery-header");
   $(".galleryweb").load("../../assets/page-elements/gallery/gallweb.html #gallery-section");
   $(".gallerypython").load("../../assets/page-elements/gallery/gallpyth.html #gallery-section");
   // $(".galleryongoing").load("../../assets/page-elements/gallery/gallongoing.html #gallery-section");
-});
 
+  //CV
+  $(".cv-header").load("../../assets/page-elements/cv/cv-main.html #cv-header")
+  $(".social-section").load("../../assets/page-elements/cv/cv-main.html #social-section")
+  $(".aws-cert-section").load("../../assets/page-elements/cv/cv-certs.html #aws-section")
+  // $(".resume-section").load("../../assets/page-elements/cv/cv-work-experience.html")
+  // $(".online-class-section").load("../../assets/page-elements/cv/cv-edu-online.html")
+  // $(".edu-section").load("../../assets/page-elements/cv/cv-edu.html")
+  // $(".portfolio-section").load("../../assets/page-elements/cv/cv-portfolio.html")
+  // $(".skills-section").load("../../assets/page-elements/cv/cv-extras.html #skills-section")
+  // $(".hobbies-section").load("../../assets/page-elements/cv/cv-extras.html #hobbies-section")
+});

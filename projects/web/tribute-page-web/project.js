@@ -12,6 +12,9 @@ $(document).ready(function () {
   $(".project-credits").remove();
 });
 
+//Powered
+$(".powered").html('&#128029; Powered by chocolate, tea and coding &#128029;')
+
 /* Activate Git Button Link */
 
 function gitFunction() {

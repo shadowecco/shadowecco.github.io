@@ -1,16 +1,25 @@
+Added: 29/08/22
+Last updated: 12/03/23
+
 # Challenge from the App Brewery:
 
 # Simon
-
-[View the page here](https://shadowecco.github.io/portfolio/simon-game-web/).
 
 Pressing the colours in the correct sequence. One wrong move ends the game.
 
 Created Visual Studio Code with:
 
 - HTML
-- CSS/Sass\*
+- CSS
 - Javascript
 - JQuery
 
-\*(Sass was included later but the main focus is on the CSS.)
+
+## Acknowledgements
+
+Main font can be found [here](https://fonts.google.com/specimen/Press+Start+2P).
+
+
+## Authors
+
+- [@shadowecco](https://www.github.com/shadowecco)

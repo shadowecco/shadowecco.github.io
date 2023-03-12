@@ -13,3 +13,12 @@ Originally created with:
 
 - HTML
 - CSS
+
+## Acknowledgements
+
+Font can be found [here](https://www.1001fonts.com/ladybug-love-demo-font.html).
+
+
+## Authors
+
+- [@shadowecco](https://www.github.com/shadowecco)

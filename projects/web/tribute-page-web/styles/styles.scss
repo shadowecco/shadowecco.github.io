@@ -1,6 +1,6 @@
 /* SASS Import Files */
 
-@import "../../../../css/_elements.scss";
+@import '../../../../css/_elements.scss';
 
 /* Body */
 
@@ -8,7 +8,7 @@ body {
   @include body();
   color: $night;
   text-align: center;
-  font-family: $ubuntu;
+  font-family: $ubuntureg;
   background-image: linear-gradient($african-red,
       $african-yellow,
       $african-green );
@@ -37,7 +37,7 @@ body {
 
 .title,
 .heading {
-  font-family: $ubuntu;
+  font-family: $ubuntureg;
   font-style: bold;
 }
 
@@ -81,7 +81,7 @@ body {
 
 .project-footer {
   @include page-footer();
-  @include footcol($african-green, $ubuntu, $african-yellow);
+  @include footcol($african-green, $ubuntureg, $african-yellow);
   @include linx($african-yellow,
     $african-yellow,
     $african-yellow,

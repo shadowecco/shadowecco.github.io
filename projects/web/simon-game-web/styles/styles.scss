@@ -1,8 +1,8 @@
 /* SASS Import Files */
 
-@import "../../../../css/_elements.scss";
+@import '../../../../css/_elements.scss';
 
-$images: "../assets/images";
+$images: '../assets/images';
 
 /* Body */
 
@@ -31,7 +31,7 @@ body {
   font-family: $gittext;
 }
 
-#level-title {
+.level-title {
   @include martb(50px, 50px);
   font-family: $presstart;
   font-size: 32px;

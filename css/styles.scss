@@ -1,6 +1,6 @@
 /* SASS Import Files */
 
-@import "../css/_elements.scss";
+@import '../css/_elements.scss';
 
 /* Body */
 
@@ -43,7 +43,7 @@ body {
 
 .nav-links {
   @include linx($darkblue, $darkblue, $darkblue, $darkblue);
-  @include texttype($ubuntu, $darkblue, 18px, bold);
+  @include texttype($ubuntureg, $darkblue, 18px, bold);
   padding-right: 50px;
 }
 
@@ -53,7 +53,7 @@ body {
   @include padding-allround(50px, 100px, 50px, 100px);
   background-color: $skyblue;
   text-align: center;
-  background: url("../../assets/images/hello-spring.jpg") top left no-repeat;
+  background: url('../../assets/images/hello-spring.jpg') top left no-repeat;
   background-size: contain;
   background-size: 100%;
 }
@@ -140,7 +140,7 @@ body {
 .cert-section,
 .cert-link,
 .welcome-text {
-  @include texttype($ubuntu, $night, 18px, normal);
+  @include texttype($ubuntureg, $night, 18px, normal);
 }
 
 /* Gallery and Certs*/
@@ -192,14 +192,16 @@ body {
 }
 
 .gallery-card,
-.gallery-btn,
 .project-btn,
+.gitcode-btn,
 .img-btn,
 .codepen-btn {
   @include borall(solid, 1px, $night);
 }
 
-.gallery-btn {
+.project-btn,
+.gitcode-btn,
+.img-btn {
   @include gallery-btn();
   margin-bottom: 10px;
 }
@@ -268,11 +270,11 @@ body {
 }
 
 .skills-progress-text {
-  @include texttype($ubuntu, $night, 18px, normal);
+  @include texttype($ubuntureg, $night, 18px, normal);
 }
 
 .hobby-title {
-  @include texttype($ubuntu, $night, 15px, normal);
+  @include texttype($ubuntureg, $night, 15px, normal);
 }
 
 .hobbies-row {

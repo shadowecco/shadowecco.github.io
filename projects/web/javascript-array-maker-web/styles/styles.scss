@@ -1,6 +1,6 @@
 /* SASS Import Files */
 
-@import "../../../../css/_elements.scss";
+@import '../../../../css/_elements.scss';
 
 /* Body */
 html {
@@ -135,7 +135,7 @@ textarea,
 
 .project-footer {
   @include page-footer();
-  @include footcol($lavendar, $ubuntu, $light);
+  @include footcol($lavendar, $ubuntureg, $light);
   @include linx($light, $light, $light, $light);
 }
 

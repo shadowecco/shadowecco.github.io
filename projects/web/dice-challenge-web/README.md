@@ -1,18 +1,25 @@
-A Pen created on CodePen.io.
+Added: 19/09/22
+Last updated: 05/03/23
 
-[My CodePen Link](https://codepen.io/shadow_ecco/pen/zYqdqQN).<br />
-[View the page here](https://shadowecco.github.io/portfolio/tribute-page-web/).
+# Challenge from the App Brewery:
 
-In response to the challenge:
+# Dice Game
 
-[Responsive Web Design Projects - Build a Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page).
+Playing a dice game with the computer on a web browser.
+- Inspired by a project on an online course
 
-I chose Chadwick Boseman because at the time, I was thinking of ideas to make a tribute page to and Boseman at the time seemed like the apporpriate choice. 
-
-Created with:
+Initally created using:
 
 - HTML
 - CSS
+- Javascript
 
-(Bootstrap was added later to add a "View Button" as well as tweak a few other features. The main coding styles are stated above)
 
+## Acknowledgements
+
+Main font can be found [here](https://fonts.google.com/specimen/Lobster).
+
+
+## Authors
+
+- [@shadowecco](https://www.github.com/shadowecco)

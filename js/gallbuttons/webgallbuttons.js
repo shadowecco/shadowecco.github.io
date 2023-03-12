@@ -1,195 +1,174 @@
-/* TEMPLATE */
-
-//Project Template
-
-function projectFunction() {
-  window.open("https://shadowecco.github.io/projects/web/", "_blank");
-}
-
-function gitFunction() {
-  window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/",
-    "_blank"
-  );
-}
-
-function imgFunction() {
-  window.open(
-    "https://unsplash.com/", "_blank"
-  );
-}
-
 //Rock Paper Scissors
 
-function rpsprojectFunction() {
-  window.open("https://shadowecco.github.io/projects/web/rock-paper-scissors-web", "_blank");
+function rpsproj() {
+  window.open('https://shadowecco.github.io/projects/web/rock-paper-scissors-web', '_blank');
 }
 
-function rpsgitFunction() {
+function rpsgit() {
   window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/rock-paper-scissors-web",
-    "_blank"
+    'https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/rock-paper-scissors-web',
+    '_blank'
   );
 }
 
-function rpsimgFunction() {
+function rpsimg() {
   window.open(
-    "https://unsplash.com/@imanitor", "_blank"
+    'https://unsplash.com/photos/2HkXcDPnGh4', '_blank'
   );
 }
 
 //Fantasy Name Generator
 
-function nameprojectFunction() {
-  window.open("https://shadowecco.github.io/projects/web/fantasy-name-generator-web", "_blank");
+function namegenproj() {
+  window.open('https://shadowecco.github.io/projects/web/fantasy-name-generator-web', '_blank');
 }
 
-function namegitFunction() {
+function namegengit() {
   window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/fantasy-name-generator-web",
-    "_blank"
+    'https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/fantasy-name-generator-web',
+    '_blank'
   );
 }
 
-function nameimgFunction() {
+function namegenimg() {
   window.open(
-    "https://unsplash.com/photos/DKix6Un55mw", "_blank"
+    'https://unsplash.com/photos/DKix6Un55mw', '_blank'
   );
 }
 
 //Javascript Array Creator
 
-function arrayprojectFunction() {
-  window.open("https://shadowecco.github.io/projects/web/javascript-array-maker-web", "_blank");
+function arrayproj() {
+  window.open('https://shadowecco.github.io/projects/web/javascript-array-maker-web', '_blank');
 }
 
-function arraygitFunction() {
+function arraygit() {
   window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/javascript-array-maker-web",
-    "_blank"
+    'https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/javascript-array-maker-web',
+    '_blank'
   );
 }
 
-function arrayimgFunction() {
+function arrayimg() {
   window.open(
-    "https://unsplash.com/photos/OQ48N5FDW1w", "_blank"
+    'https://unsplash.com/photos/OQ48N5FDW1w', '_blank'
   );
 }
 
 //Love Generator
 
-function loveprojectFunction() {
+function lovegenproj() {
   window.open(
-    "https://shadowecco.github.io/projects/web/love-generator-web",
-    "_blank"
+    'https://shadowecco.github.io/projects/web/love-generator-web',
+    '_blank'
   );
 }
 
-function lovegitFunction() {
+function lovegengit() {
   window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/love-generator-web",
-    "_blank"
+    'https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/love-generator-web',
+    '_blank'
   );
 }
 
-function loveimgFunction() {
+function lovegenimg() {
   window.open(
-    "https://unsplash.com/photos/hBzrr6m6-pc", "_blank"
+    'https://unsplash.com/photos/hBzrr6m6-pc', '_blank'
   );
 }
 
 //Star Wars Name Generator
 
-function starwarsprojectFunction() {
-  window.open("https://shadowecco.github.io/projects/web/star-wars-name-generator-web", "_blank");
+function starwarsgenproj() {
+  window.open('https://shadowecco.github.io/projects/web/star-wars-name-generator-web', '_blank');
 }
 
-function starwarsgitFunction() {
-  window.open("https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/star-wars-name-generator-web", "_blank");
+function starwarsgengit() {
+  window.open('https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/star-wars-name-generator-web', '_blank');
 }
 
-function starwarsimgFunction() {
+function starwarsgenimg() {
   window.open(
-    "https://unsplash.com/photos/EpIUbeFrqwQ", "_blank"
+    'https://unsplash.com/photos/EpIUbeFrqwQ', '_blank'
   );
 }
 
 //Dice Game
 
-function diceprojectFunction() {
-  window.open("https://shadowecco.github.io/projects/web/dice-challenge-web", "_blank");
+function diceproj() {
+  window.open('https://shadowecco.github.io/projects/web/dice-challenge-web', '_blank');
 }
 
-function dicegitFunction() {
+function dicegit() {
   window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/dice-challenge-web",
-    "_blank"
+    'https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/dice-challenge-web',
+    '_blank'
   );
 }
 
-function diceimgFunction() {
+function diceimg() {
   window.open(
-    "https://unsplash.com/photos/4aB1nGtD_Sg", "_blank"
+    'https://unsplash.com/photos/4aB1nGtD_Sg', '_blank'
   );
 }
 
 //Drum Kit
 
-function drumprojectFunction() {
-  window.open("https://shadowecco.github.io/projects/web/drum-kit-web/", "_blank");
+function drumkitproj() {
+  window.open('https://shadowecco.github.io/projects/web/drum-kit-web/', '_blank');
 }
 
-function drumgitFunction() {
-  window.open("https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/drum-kit-web", "_blank");
+function drumkitgit() {
+  window.open('https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/drum-kit-web', '_blank');
 }
 
 
-function drumimgFunction() {
+function drumkitimg() {
   window.open(
-    "https://unsplash.com/photos/-lWcaUVJ39Y", "_blank"
+    'https://unsplash.com/photos/-lWcaUVJ39Y', '_blank'
   );
 }
 
 //Simon Game
 
-function simonprojectFunction() {
+function simonproj() {
   window.open(
-    "https://shadowecco.github.io/projects/web/simon-game-web",
-    "_blank"
+    'https://shadowecco.github.io/projects/web/simon-game-web',
+    '_blank'
   );
 }
 
-function simongitFunction() {
+function simongit() {
   window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/simon-game-web",
-    "_blank"
+    'https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/simon-game-web',
+    '_blank'
   );
 }
 
-function simonimgFunction() {
+function simonimg() {
   window.open(
-    "https://unsplash.com/photos/I4YsI1zWq_w", "_blank"
+    'https://unsplash.com/photos/I4YsI1zWq_w', '_blank'
   );
 }
 
 //Chadwick Boseman Tribute Page
 
-function chadwickprojectFunction() {
+function tributeproj() {
   window.open(
-    "https://shadowecco.github.io/projects/web/tribute-page-web/",
-    "_blank"
+    'https://shadowecco.github.io/projects/web/tribute-page-web/',
+    '_blank'
   );
 }
 
-function chadwickgitFunction() {
+function tributegit() {
   window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/tribute-page-web",
-    "_blank"
+    'https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/tribute-page-web',
+    '_blank'
   );
 }
 
-function chadwickimgFunction() {
+function tributeimg() {
   window.open(
-    "https://unsplash.com/photos/J2YHvVHQb-Y", "_blank"
+    'https://unsplash.com/photos/J2YHvVHQb-Y', '_blank'
   );
 }

@@ -1,93 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <title>Love Generator</title>
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="../../../favicon.ico" />
+  <link rel='icon' type='image/png' href='../../../favicon.ico' />
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" id="font-awesome"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel='stylesheet' id='font-awesome'
+    href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' />
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="../../../css/styles.css" />
-  <link rel="stylesheet" href="../../../assets/flaticon/flaticon.css" />
+  <link rel='stylesheet' href='../../../css/styles.css' />
+  <link rel='stylesheet' href='../../../assets/flaticon/flaticon.css' />
 
   <!-- Specific Stylesheet -->
-  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel='stylesheet' href='./styles/styles.css' />
 
   <!-- JQuery -->
-  <script id="jquery" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script id='jquery' src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
 
   <!-- Boilerplate Javascript -->
-  <script defer src="../../projects-boilerplate.js"></script>
+  <script defer src='../../projects-boilerplate.js'></script>
 
   <!-- Main Javascript -->
-  <script type="text/javascript" src="../../../js/main.js"></script>
+  <script defer src='../../../js/main.js'></script>
+  <script defer src='../../../js/main-functions.js'></script>
 
   <!-- Specific Javascript -->
-  <script src="./project.js" async defer></script>
+  <script src='./project.js' async defer></script>
 </head>
 
 <body>
   <!-- Github Button -->
-  <button id="projgit-but projectgit" class="projectgit" onclick="gitFunction()">
-    <i class="fab fa-github"></i> View Project Code at GitHub
+  <button class='projectgit'>
+    <i class='fab fa-github'></i> View Project Code at GitHub
   </button>
 
-  <div class="love-container">
+  <div class='love-container'>
     <!-- Headers -->
-    <h1 class="title">*** Love Generator ***</h1>
-    <h2 class="subtitle">** Are you and your crush meant to be? **</h2>
+    <h1 class='title'>*** Love Generator ***</h1>
+    <h2 class='subtitle'>** Are you and your crush meant to be? **</h2>
 
     <!-- Love form -->
-    <div class="love-form" id="love-form">
-      <div id="user-love" class="user-love">
+    <div class='love-form'>
+      <div class='user-love'>
         <!-- Prevent User to Enter Numbers and Spaces -->
-        <input id="your-name-text" class="your-name-text"
-          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"
-          placeholder="Your Name">
+        <input class='your-name-text'
+          onkeypress='return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))'
+          placeholder='Your Name'>
       </div>
 
-      <div id="crush-love" class="crush-love">
+      <div class='crush-love'>
         <!-- Prevent User to Enter Numbers and Spaces -->
-        <input id="crush-name-text" class="crush-name-text"
-          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"
-          placeholder="Your Crush's Name">
+        <input class='crush-name-text'
+          onkeypress='return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))'
+          placeholder='Your Crush' s Name'>
       </div>
     </div>
 
     <!-- Love Score and Comment -->
-    <div id="love-score"></div>
-    <div id="love-comment"></div>
+    <div class='love-score'></div>
+    <div class='love-comment'></div>
 
     <!-- Love Button -->
-    <button id="love-btn" class="love-btn" onclick="addLove()">Press</button>
+    <button class='love-btn'>Press</button>
 
     <!-- Reset Button -->
-    <div class="reset" id="reset"><i class="fas fa-sync-alt reset-icon" title="Reset"
-        onclick="window.location.reload()"></i>
+    <div class='reset' id='reset'><i class='fas fa-sync-alt reset-icon' title='Reset'
+        onclick='window.location.reload()'></i>
     </div>
   </div>
 
   <!-- Footer -->
-  <footer class="footer project-footer">
+  <footer class='footer project-footer'>
     &nbsp
     <!-- Contacts -->
-    <div id="contacts" class="contacts project-contacts"></div>
+    <div id='contacts' class='contacts project-contacts'></div>
 
     <!-- Copyright -->
-    <div id="copyright" class="copyright">Copyright</div>
+    <div id='copyright' class='copyright'>Copyright</div>
 
     <!-- Credits-->
-    <div class="credits project-credits">Credits</div>
+    <div class='credits project-credits'>Credits</div>
 
     <!-- Powered by -->
-    <div class="powered">Powered</div>
+    <div class='powered'>Powered</div>
     &nbsp
   </footer>
 </body>

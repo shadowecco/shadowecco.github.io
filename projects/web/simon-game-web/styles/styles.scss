@@ -22,13 +22,13 @@ body {
 .projectgit {
   @include projgitbut();
   @include gitbutcol($calamansi, $calamansi);
-  font-family: $gittext;
+  @include projgitcss($transparent, $architect);
+
 }
 
 .projectgit:hover {
   @include projgithover();
   @include gitbutcol($light, $light);
-  font-family: $gittext;
 }
 
 .level-title {

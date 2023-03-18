@@ -18,7 +18,6 @@ function projectFooterText(picloc, artloc, artName, siteloc, siteName) {
     );
 }
 
-
 //Project Template
 
 /* function projectFunction(startLink, endLink) {

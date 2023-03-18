@@ -30,11 +30,11 @@ $('img')[1].setAttribute('src', randomImageSource2);
 
 //If player 1 wins
 if (randomNumber1 > randomNumber2) {
-  $('.gametitle').text('🚩 Player 1 Wins!').css({ 'font-family': 'Indie Flower', 'color': '#2dc937' });
+  $('.gametitle').text('🚩 Player 1 Wins!').css({ 'color': '#2dc937' });
 }
 else if (randomNumber2 > randomNumber1) {
-  $('.gametitle').text('🚩 Player 2 Wins!').css({ 'font-family': 'Indie Flower', 'color': '#cc3232' });
+  $('.gametitle').text('🚩 Player 2 Wins!').show().css({ 'color': '#cc3232' });
 }
 else {
-  $('.gametitle').text('Draw!').css({ 'font-family': 'Indie Flower', 'color': '#e7b416' });
+  $('.gametitle').text('Draw!').css({ 'color': '#e7b416' });
 }

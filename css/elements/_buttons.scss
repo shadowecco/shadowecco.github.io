@@ -60,6 +60,12 @@
   @include gallery-btn();
   @include martb(30px, 30px);
   @include borwidth(solid, 2px);
+  font-family: $gittext;
   background-color: $github;
   font-size: 18px;
+}
+
+@mixin projgitcss($bgcolour, $fonttype) {
+  background-color: $bgcolour;
+  font-family: $fonttype;
 }

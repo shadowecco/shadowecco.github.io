@@ -9,12 +9,12 @@ Basic Font Information
 
 Press Start 2P is a bitmap font based on the font design from 1980s Namco
 arcade games. Although the design of uppercase letters and digits dates
-back to Atari's "Sprint" (1977), the specific glyph forms in this TrueType
-conversion are based on those from "Return of Ishtar" (1986), one of the
+back to Atari's 'Sprint' (1977), the specific glyph forms in this TrueType
+conversion are based on those from 'Return of Ishtar' (1986), one of the
 first games to include and regularly use lowercase as well as uppercase
 letters in its screen font.
 
-Unlike the original font from the "Return of Ishtar" ROM, Press Start 2P
+Unlike the original font from the 'Return of Ishtar' ROM, Press Start 2P
 includes a wide variety of non-ASCII Unicode characters for pan-European
 use, including Greek and Cyrillic.
 
@@ -58,12 +58,12 @@ If you make modifications be sure to add your name (N), email (E),
 web-address (if you have one) (W) and description (D).
 This list is in alphabetical order.
 
-N: Cody Boisclair ("CodeMan38")
+N: Cody Boisclair ('CodeMan38')
 E: cody@zone38.net
 W: http://zone38.net/font/
 D: Conversion of glyphs to TrueType; creation of non-ASCII glyphs
 
-N: "QTQ"
+N: 'QTQ'
 E: [unknown]
 W: http://www22.atpages.jp/nbgifan/namco.html
 D: Original extraction of glyph bitmaps

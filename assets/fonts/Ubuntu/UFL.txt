@@ -14,26 +14,26 @@ purpose of the document is not to be a vehicle for the distribution of
 the fonts.
 
 DEFINITIONS
-"Font Software" refers to the set of files released by the Copyright
+'Font Software' refers to the set of files released by the Copyright
 Holder(s) under this licence and clearly marked as such. This may
 include source files, build scripts and documentation.
 
-"Original Version" refers to the collection of Font Software components
+'Original Version' refers to the collection of Font Software components
 as received under this licence.
 
-"Modified Version" refers to any derivative made by adding to, deleting,
+'Modified Version' refers to any derivative made by adding to, deleting,
 or substituting -- in part or in whole -- any of the components of the
 Original Version, by changing formats or by porting the Font Software to
 a new environment.
 
-"Copyright Holder(s)" refers to all individuals and companies who have a
+'Copyright Holder(s)' refers to all individuals and companies who have a
 copyright ownership of the Font Software.
 
-"Substantially Changed" refers to Modified Versions which can be easily
+'Substantially Changed' refers to Modified Versions which can be easily
 identified as dissimilar to the Font Software by users of the Font
 Software comparing the Original Version with the Modified Version.
 
-To "Propagate" a work means to do anything with it that, without
+To 'Propagate' a work means to do anything with it that, without
 permission, would make you directly or secondarily liable for
 infringement under applicable copyright law, except executing it on a
 computer or modifying a private copy. Propagation includes copying,
@@ -63,7 +63,7 @@ avoid use of the name of the Original Version or similar names entirely.
 renamed to both (i) retain the name of the Original Version and (ii) add
 additional naming elements to distinguish the Modified Version from the
 Original Version. The name of such Modified Versions must be the name of
-the Original Version, with "derivative X" where X represents the name of
+the Original Version, with 'derivative X' where X represents the name of
 the new work, appended to that name.
 
 3) The name(s) of the Copyright Holder(s) and any contributor to the
@@ -85,7 +85,7 @@ This licence becomes null and void if any of the above conditions are
 not met.
 
 DISCLAIMER
-THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+THE FONT SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF
 COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE

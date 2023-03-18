@@ -22,13 +22,12 @@ body {
 .projectgit {
   @include projgitbut();
   @include gitbutcol($light, $light);
-  font-family: $gittext;
+  @include projgitcss($transparent, $indieflower);
 }
 
 .projectgit:hover {
   @include projgithover();
   @include gitbutcol($light, $light);
-  font-family: $gittext;
 }
 
 /* Container */

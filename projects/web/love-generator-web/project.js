@@ -8,72 +8,41 @@ $(document).ready(function () {
 
 
   //Footer Credits
-
-  var unSplash = "https://unsplash.com/"
-
-  function projectFooterText(picloc, artloc, artName, siteloc, siteName) {
-
-    $(".project-credits").html(
-      '<a href="' +
-      picloc +
-      '">Image</a> by <a href="' +
-      artloc +
-      '"> ' + artName + ' </a> on <a href="' +
-      siteloc +
-      '">' + siteName + '</a>'
-    );
-  }
+  var unSplash = 'https://unsplash.com/'
 
   projectFooterText('https://unsplash.com/photos/hBzrr6m6-pc', 'https://unsplash.com/@jamie452', 'Jamie Street', unSplash, 'Unsplash')
+
 });
 
 /* Activate Git Button Link */
-
-function gitFunction() {
+$('.projectgit').click(function () {
   window.open(
-    "https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/love-generator-web",
-    "_blank"
-  );
-}
+    'https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/love-generator-web',
+    '_blank')
+});
 
 /* Functions activated after pressing Love button */
 
-function addLove() {
-  const loveScore = document.getElementById("love-score");
-  const loveComment = document.getElementById("love-comment");
+$('.love-btn').click(function () {
+  var crushName = $('.crush-name-text').val();
+  const loveNumber = Math.floor(Math.random() * 100) + 1;
 
-  var crushName = document.getElementById("crush-name-text").value;
+  $('.title, .subtitle, .love-form, .love-btn').remove();
+  $('.reset, .love-comment, .love-score').show()
 
-  $(".title").remove();
-  $(".subtitle").remove();
-  $(".love-form").remove();
-  $(".love-btn").remove();
-  $(".reset").show()
-  calculateScore();
+  $(".love-score").text("Your love score is " + loveNumber + "%!");
 
-  function calculateScore() {
-    const loveNumber = Math.floor(Math.random() * 100) + 1;
-    loveScore.innerText = "Your love score is " + loveNumber + "%!";
-    loveScore.style.display = "block";
-
-    if (loveNumber > 70) {
-      loveComment.innerText =
-        "*** You and " +
-        crushName +
-        " love each other like Kanye loves Kanye! ***";
-      loveComment.style.display = "block";
-    }
-
-    if (loveNumber > 30 && loveNumber <= 70) {
-      loveComment.innerText =
-        "** Something could be between you two. Fingers crossed! **";
-      loveComment.style.display = "block";
-    }
-
-    if (loveNumber <= 30) {
-      loveComment.innerText =
-        "* You and " + crushName + " go together like oil and water! *";
-      loveComment.style.display = "block";
-    }
+  if (loveNumber > 70) {
+    $(".love-comment").text("*** You and " +
+      crushName +
+      " love each other like Kanye loves Kanye! ***");
   }
-}
+
+  if (loveNumber > 30 && loveNumber <= 70) {
+    $(".love-comment").text("** Something could be between you two. Fingers crossed! **");
+  }
+
+  if (loveNumber <= 30) {
+    $(".love-comment").text("* You and " + crushName + " go together like oil and water! *");
+  }
+});

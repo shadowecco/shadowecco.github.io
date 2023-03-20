@@ -16,8 +16,8 @@ Initally created using:
 
 ## Acknowledgements
 
-- Font can be found [here](https://www.cufonfonts.com/font/charm).
-- Image was created by [Johannes Plenio](https://unsplash.com/@jplenio) and can be found [here](https://unsplash.com/photos/DKix6Un55mw).
+- Main font can be found [here](https://www.cufonfonts.com/font/charm).
+- Main image was created by [Johannes Plenio](https://unsplash.com/@jplenio) and can be found [here](https://unsplash.com/photos/DKix6Un55mw).
 
 
 ## Authors

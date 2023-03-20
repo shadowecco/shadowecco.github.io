@@ -1,8 +1,8 @@
 /* SASS Import Files */
 
-@import "../../../../css/_elements.scss";
+@import '../../../../css/_elements.scss';
 
-$images: "../images";
+$images: '../images';
 
 /* Body */
 html {
@@ -21,11 +21,17 @@ body {
   font-weight: 700;
 }
 
+body::before {
+  @include body-before();
+  background-color: transparentize($royalpurple, 0.7);
+}
+
 /* Git Button */
 
 .projectgit {
   @include projgitbut();
   @include gitbutcol($light, $light);
+  @include projgitcss($royalpurple, $charm);
 }
 
 .projectgit:hover {
@@ -34,15 +40,13 @@ body {
 }
 
 
-.royal-name{
+.royal-name {
   font-size: 60px;
 }
 
 /* Buttons */
 
-.male-button,
-.female-button,
-.random-button {
+.gen-btn {
   @include borall(solid, 1px, $night);
   font-family: $charm;
   padding: 10px;
@@ -74,9 +78,6 @@ body {
   font-size: 32px;
   color: $light;
 }
-
-
-
 
 .reset-icon {
   font-size: 50px;

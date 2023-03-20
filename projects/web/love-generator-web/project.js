@@ -30,7 +30,7 @@ $('.love-btn').click(function () {
   $('.title, .subtitle, .love-form, .love-btn').remove();
   $('.reset, .love-comment, .love-score').show()
 
-  $(".love-score").text("Your love score is " + loveNumber + "%!");
+  $('.love-score').text('Your love score is ' + loveNumber + '%!');
 
   if (loveNumber > 70) {
     $(".love-comment").text("*** You and " +

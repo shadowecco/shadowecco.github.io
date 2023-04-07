@@ -19,8 +19,8 @@ Created on Visual Studio Code with:
 
 ## Acknowledgements
 
-- Font can be found [here](https://www.1001fonts.com/ladybug-love-demo-font.html).
-- Image was created by [Jamie Street](https://unsplash.com/@jamie452) and can be found [here](https://unsplash.com/photos/hBzrr6m6-pc).
+- Main font can be found [here](https://www.1001fonts.com/ladybug-love-demo-font.html).
+- Main image was created by [Jamie Street](https://unsplash.com/@jamie452) and can be found [here](https://unsplash.com/photos/hBzrr6m6-pc).
 
 
 ## Authors

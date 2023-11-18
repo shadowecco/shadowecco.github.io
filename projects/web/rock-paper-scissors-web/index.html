@@ -1,46 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='description' content='' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 
     <title>Rock Paper Scissors</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../../../favicon.ico" />
+    <link rel='icon' type='image/png' href='../../../favicon.ico' />
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" id="font-awesome"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel='stylesheet' id='font-awesome'
+        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="../../../css/styles.css" />
-    <link rel="stylesheet" href="../../../assets/flaticon/flaticon.css" />
+    <link rel='stylesheet' href='../../../css/styles.css' />
+    <link rel='stylesheet' href='../../../assets/flaticon/flaticon.css' />
 
     <!-- Specific Stylesheet -->
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel='stylesheet' href='./styles/styles.css' />
 
     <!-- JQuery -->
-    <script id="jquery" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script id='jquery' src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
 
     <!-- Boilerplate Javascript -->
-    <script defer src="../../projects-boilerplate.js"></script>
+    <script defer src='../../../js/main-boilerplate.js'></script>
 
     <!-- Main Javascript -->
-    <script type="text/javascript" src="../../../js/main.js"></script>
+    <script defer src='../../../js/main.js'></script>
+    <script defer src='../../../js/main-functions.js'></script>
 
     <!-- Specific Javascript -->
-    <script defer src="./project.js"></script>
+    <script defer src='./project.js'></script>
 </head>
 
 <body>
 
     <!-- Github Button -->
-    <button id="projgit-but projectgit" class="projectgit" onclick="gitFunction()">
-        <i class="fab fa-github"></i> View Project Code at GitHub
+    <button class='projectgit'>
+        <i class='fab fa-github'></i> View Project Code at GitHub
     </button>
 
     <!-- Project Area -->
@@ -51,66 +52,69 @@
     </header>
 
     <!-- Choice Box -->
-    <div class="choice-box" id="choice-box">
+    <div class='choice-box' id='choice-box'>
         <!-- Score Board -->
-        <div class="score-board" id="score-board">
-            <div id="user-label" class="badge">user</div>
-            <div id="computer-label" class="badge">comp</div>
-            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        <div class='score-board' id='score-board'>
+            <div id='user-label' class='badge'>user</div>
+            <div id='computer-label' class='badge'>comp</div>
+            <span id='user-score'>0</span>:<span id='computer-score'>0</span>
         </div>
 
         <!-- Result -->
-        <div class="result" id="result">
-            <p id="results">Make your move!</p>
+        <div class='result' id='result'>
+            <p id='results'>Make your move!</p>
         </div>
 
         <!-- Player Choices -->
-        <div class="user-choices" id="user-choices">
-            <h2 class="player">User<span class="user-choice-text" id="user-choice-text"></span></h2>
-            <div class="user-choice" id="user-choice">
-                <i class="far fa-hand-rock fa-5x choice-icon" title="Rock" id="user-r" onclick="select('rock')"></i>
-                <i class="far fa-hand-paper fa-5x choice-icon" title="Paper" id="user-p" onclick="select('paper')"></i>
-                <i class="far fa-hand-scissors fa-5x choice-icon" title="Scissors" id="user-s"
-                    onclick="select('scissors')"></i>
+        <div class='user-choices' id='user-choices'>
+            <h2 class='player'>User<span class='user-choice-text' id='user-choice-text'></span></h2>
+            <div class='user-choice' id='user-choice'>
+                <i class='far fa-hand-rock fa-5x choice-icon user-choice-icon' title='Rock' id='user-r' class='user-r'
+                    onclick='select("rock")'></i>
+                <i class='far fa-hand-paper fa-5x choice-icon user-choice-icon' title='Paper' id='user-p' class='user-p'
+                    onclick='select("paper")'></i>
+                <i class='far fa-hand-scissors fa-5x choice-icon user-choice-icon' title='Scissors' id='user-s'
+                    class='user-s' onclick='select("scissors")'></i>
             </div>
         </div>
 
         <!-- Computer Choices -->
-        <div class="computer-choices" id="computer-choices">
-            <h2 class="player">
-                Computer<span class="computer-choice-text" id="computer-choice-text"></span>
+        <div class='computer-choices' id='computer-choices'>
+            <h2 class='player'>
+                Computer<span class='computer-choice-text' id='computer-choice-text'></span>
             </h2>
-            <div class="computer-choice" id="computer-choice">
-                <i class="far fa-hand-rock fa-5x choice-icon" title="Rock" id="computer-r"></i>
-                <i class="far fa-hand-paper fa-5x choice-icon" title="Paper" id="computer-p"></i>
-                <i class="far fa-hand-scissors fa-5x choice-icon" title="Scissors" id="computer-s"></i>
+            <div class='computer-choice' id='computer-choice'>
+                <i class='far fa-hand-rock fa-5x choice-icon' title='Rock' id='computer-r' class='computer-r'></i>
+                <i class='far fa-hand-paper fa-5x choice-icon' title='Paper' id='computer-p' class='computer-p'></i>
+                <i class='far fa-hand-scissors fa-5x choice-icon' title='Scissors' id='computer-s'
+                    class='computer-s'></i>
             </div>
         </div>
     </div>
 
     <!-- Reset Button -->
 
-    <div class="reset" id="reset">
-        <p class="reset-text" id="reset-text"><i class="fas fa-sync-alt reset-icon fa-2x" title="Reset"
-                onclick="resetAll()"></i>
+    <div class='reset' id='reset'>
+        <p class='reset-text' id='reset-text'><i class='fas fa-sync-alt reset-icon fa-2x' title='Reset'
+                onclick='resetAll()'></i>
             Press to Reset Game</p>
     </div>
 
 
     <!-- Footer -->
-    <footer class="footer project-footer">
+    <footer class='footer project-footer'>
         &nbsp
         <!-- Contacts -->
-        <div id="contacts" class="contacts project-contacts"></div>
+        <div class='contacts project-contacts'></div>
 
         <!-- Copyright -->
-        <div id="copyright" class="copyright">Copyright</div>
+        <div class='copyright'>Copyright</div>
 
         <!-- Credits-->
-        <div class="credits project-credits">Credits</div>
+        <div class='credits project-credits'>Credits</div>
 
         <!-- Powered by -->
-        <div class="powered">Powered</div>
+        <div class='powered'>Powered</div>
         &nbsp
     </footer>
 </body>

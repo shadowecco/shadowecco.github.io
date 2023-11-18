@@ -2,13 +2,21 @@
 /* Load Contents of Page */
 
 $(document).ready(function () {
-  $(".project-contacts").load(
-    "../../../assets/page-elements/main.html #contacts"
+  $('.project-contacts').load(
+    '../../../assets/page-elements/main.html #contacts'
   );
 
   //Footer Credits
-  $(".project-credits").remove();
+  $('.project-credits').remove();
 });
+
+/* Activate Git Button Link */
+$('.projectgit').click(function () {
+  window.open(
+    'https://github.com/shadowecco/shadowecco.github.io/tree/main/projects/web/rock-paper-scissors-web',
+    '_blank')
+});
+
 
 
 // DOM Elements
@@ -82,15 +90,12 @@ function displayComputerChoice(computerRanChoice) {
   var computerRanChoice = computerRandomChoice();
   switch (computerRanChoice) {
     case 'rock':
-      computerRock.classList.add('selected');
       computerChoiceText.textContent = ' --- Rock';
       break;
     case 'paper':
-      computerPaper.classList.add('selected');
       computerChoiceText.textContent = ' --- Paper';
       break;
     case 'scissors':
-      computerScissors.classList.add('selected');
       computerChoiceText.textContent = ' --- Scissors';
       break;
     default:
@@ -100,15 +105,93 @@ function displayComputerChoice(computerRanChoice) {
 
 // Check result, increase scores, update resultText
 function updateScore(userChoice) {
+  userRock.classList.remove('draw', 'win', 'lose');
+  userPaper.classList.remove('draw', 'win', 'lose');
+  userScissors.classList.remove('draw', 'win', 'lose');
+  computerRock.classList.remove('draw', 'win', 'lose');
+  computerPaper.classList.remove('draw', 'win', 'lose');
+  computerScissors.classList.remove('draw', 'win', 'lose');
+
   if (userChoice === computerRanChoice) {
-    resultText.textContent = "It's a tie.";
+    switch (userChoice) {
+      case 'rock':
+        userRock.classList.add('draw');
+        break;
+      case 'paper':
+        userPaper.classList.add('draw');
+        break;
+      case 'scissors':
+        userScissors.classList.add('draw');
+        break;
+    }
+
+    switch (computerRanChoice) {
+      case 'rock':
+        computerRock.classList.add('draw');
+        break;
+      case 'paper':
+        computerPaper.classList.add('draw');
+        break;
+      case 'scissors':
+        computerScissors.classList.add('draw');
+        break;
+    }
+    resultText.textContent = 'Draw';
   } else {
     const choice = choices[userChoice];
     if (choice.defeats.indexOf(computerRanChoice) > -1) {
+
+      switch (userChoice) {
+        case 'rock':
+          userRock.classList.add('win');
+          break;
+        case 'paper':
+          userPaper.classList.add('win');
+          break;
+        case 'scissors':
+          userScissors.classList.add('win');
+          break;
+      }
+
+      switch (computerRanChoice) {
+        case 'rock':
+          computerRock.classList.add('lose');
+          break;
+        case 'paper':
+          computerPaper.classList.add('lose');
+          break;
+        case 'scissors':
+          computerScissors.classList.add('lose');
+          break;
+      }
       resultText.textContent = 'You Won!';
       userScoreNumber++;
       userScore.textContent = userScoreNumber;
     } else {
+
+      switch (userChoice) {
+        case 'rock':
+          userRock.classList.add('lose');
+          break;
+        case 'paper':
+          userPaper.classList.add('lose');
+          break;
+        case 'scissors':
+          userScissors.classList.add('lose');
+          break;
+      }
+
+      switch (computerRanChoice) {
+        case 'rock':
+          computerRock.classList.add('win');
+          break;
+        case 'paper':
+          computerPaper.classList.add('win');
+          break;
+        case 'scissors':
+          computerScissors.classList.add('win');
+          break;
+      }
       resultText.textContent = 'You Lost!';
       computerScoreNumber++;
       computerScore.textContent = computerScoreNumber;
@@ -130,15 +213,12 @@ function select(userChoice) {
   // Add 'selected' styling & userChoice
   switch (userChoice) {
     case 'rock':
-      userRock.classList.add('selected');
       userChoiceText.textContent = ' --- Rock';
       break;
     case 'paper':
-      userPaper.classList.add('selected');
       userChoiceText.textContent = ' --- Paper';
       break;
     case 'scissors':
-      userScissors.classList.add('selected');
       userChoiceText.textContent = ' --- Scissors';
       break;
     default:

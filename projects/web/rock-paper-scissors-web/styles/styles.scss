@@ -1,8 +1,8 @@
 /* SASS Import Files */
 
-@import "../../../../css/_elements.scss";
+@import '../../../../css/_elements.scss';
 
-$images: "../images";
+$images: '../images';
 
 /* Body */
 html {
@@ -50,7 +50,7 @@ header>h1 {
   border-radius: 4px;
   margin: 20px auto;
   text-align: center;
-  font-family: $raleway;
+  font-family: $ralewayreg;
   width: 150px;
   color: $light;
   font-size: 46px;
@@ -60,7 +60,7 @@ header>h1 {
 .badge {
   @include padding-allround(2px, 10px, 2px, 10px);
   background: $light-red;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 #user-name {
@@ -91,6 +91,18 @@ header>h1 {
   font-weight: bold;
 }
 
+.win {
+  color: $green;
+}
+
+.lose {
+  color: $red;
+}
+
+.draw {
+  color: $yellow;
+}
+
 /* Choices */
 .player {
   font-size: 50px;
@@ -110,6 +122,11 @@ header>h1 {
   margin-right: 100px;
 }
 
+.user-choice-icon:hover,
+.reset-icon:hover {
+  color: red;
+}
+
 .computer-choices {
   margin-left: 100px;
 }
@@ -122,7 +139,7 @@ header>h1 {
 }
 
 .selected {
-  color: $selected  !important;
+  color: $selected !important;
 }
 
 /* Reset */
@@ -158,5 +175,27 @@ a:visited {
 
 .credits a,
 a:visited {
+  color: $light;
+}
+
+//Awesome Font Logo Hover
+
+.fa-envelope:hover {
+  color: $light;
+}
+
+.fa-linkedin:hover {
+  color: $light;
+}
+
+.fa-github:hover {
+  color: $light;
+}
+
+.fa-free-code-camp:hover {
+  color: $light;
+}
+
+.fa-codepen:hover {
   color: $light;
 }

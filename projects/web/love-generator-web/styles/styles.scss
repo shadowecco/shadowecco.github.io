@@ -96,6 +96,12 @@ body::before {
   font-size: 30px;
 }
 
+.love-btn:hover {
+  background-color: $lovepink;
+  color: $light;
+
+}
+
 .love-score,
 .love-comment,
 .reset {
@@ -112,6 +118,10 @@ body::before {
   font-size: 50px;
   cursor: pointer;
   padding-bottom: 20px;
+}
+
+.reset-icon:hover {
+  color: $lovepink
 }
 
 
@@ -131,4 +141,14 @@ body::before {
 .credits a,
 a:visited {
   color: $offwhite;
+}
+
+//Awesome Font Logo Hover
+
+.fa-envelope:hover,
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-free-code-camp:hover,
+.fa-codepen:hover {
+  color: $lovepink;
 }

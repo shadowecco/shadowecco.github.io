@@ -97,3 +97,19 @@ img {
 a:visited {
   color: $light;
 }
+
+//Awesome Font Logo Hover
+
+.fa-envelope:hover,
+.fa-free-code-camp:hover {
+  color: $red;
+}
+
+.fa-linkedin:hover,
+.fa-codepen:hover {
+  color: $green;
+}
+
+.fa-github:hover {
+  color: $yellow;
+}

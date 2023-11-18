@@ -87,3 +87,13 @@ body {
     $african-yellow,
     $african-yellow );
 }
+
+//Awesome Font Logo Hover
+
+.fa-envelope:hover,
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-free-code-camp:hover,
+.fa-codepen:hover {
+  color: $african-red;
+}

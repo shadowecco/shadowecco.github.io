@@ -101,3 +101,25 @@ body {
 a:visited {
   color: $calamansi;
 }
+
+//Awesome Font Logo Hover
+
+.fa-envelope:hover {
+  color: red;
+}
+
+.fa-linkedin:hover {
+  color: blue;
+}
+
+.fa-github:hover {
+  color: yellow;
+}
+
+.fa-free-code-camp:hover {
+  color: green;
+}
+
+.fa-codepen:hover {
+  color: $silver;
+}

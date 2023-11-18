@@ -33,9 +33,9 @@ $('.love-btn').click(function () {
   $('.love-score').text('Your love score is ' + loveNumber + '%!');
 
   if (loveNumber > 70) {
-    $(".love-comment").text("*** You and " +
+    $(".love-comment").text("ooo You and " +
       crushName +
-      " love each other like Kanye loves Kanye! ***");
+      " love each other like Kanye loves Kanye! ooo");
   }
 
   if (loveNumber > 30 && loveNumber <= 70) {

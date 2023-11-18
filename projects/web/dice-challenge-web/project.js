@@ -16,6 +16,11 @@ $('.projectgit').click(function () {
     '_blank')
 });
 
+
+let win = '#2dc937'
+let lose = '#cc3232'
+let draw = '#e7b416'
+
 //Random Number for Player
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //1-6
 var randomDiceImage = 'dice' + randomNumber1 + '.png'; //dice1.png - dice6.png
@@ -30,11 +35,11 @@ $('img')[1].setAttribute('src', randomImageSource2);
 
 //If player 1 wins
 if (randomNumber1 > randomNumber2) {
-  $('.gametitle').text('🚩 Player 1 Wins!').css({ 'color': '#2dc937' });
+  $('.gametitle').text('🚩 Player 1 Wins!').css({ 'color': win });
 }
 else if (randomNumber2 > randomNumber1) {
-  $('.gametitle').text('🚩 Player 2 Wins!').show().css({ 'color': '#cc3232' });
+  $('.gametitle').text('🚩 Player 2 Wins!').show().css({ 'color': lose });
 }
 else {
-  $('.gametitle').text('Draw!').css({ 'color': '#e7b416' });
+  $('.gametitle').text('Draw!').css({ 'color': draw });
 }

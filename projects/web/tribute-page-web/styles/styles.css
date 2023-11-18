@@ -1,4 +1,5 @@
-/* SASS Import Files */ /* Body */
+/* SASS Import Files */
+/* Body */
 /* Header */
 /* Logos */
 /* Gallery */
@@ -14,179 +15,141 @@
 /* Glass */
 /* Footer */
 /* Borders */
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @font-face {
   font-family: "Anakin Mono";
-  src: url("../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
+  src: url(../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Architects Daughter', cursive;
-  src: url('../../assets/fonts/Architects-Daughter/ArchitectsDaughter-Regular.ttf') format('truetype');
+@font-face {
+  font-family: "Architects Daughter", cursive;
+  src: url(../../assets/fonts/Architects-Daughter/ArchitectsDaughter-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Boogaloo', cursive;
-  src: url('../../assets/fonts/Boogaloo/Boogaloo-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Boogaloo", cursive;
+  src: url(../../assets/fonts/Boogaloo/Boogaloo-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
+}
 @font-face {
   font-family: "Charm";
-  src: url("../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
+  src: url(../../assets/fonts/Charm/Charm-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Enchanted Land";
-  src: url("../../assets/fonts/Enchanted-Land/Enchanted-Land.otf") format("opentype");
+  src: url(../../assets/fonts/Enchanted-Land/Enchanted-Land.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Honey";
-  src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
+  src: url(../../assets/fonts/Honey/Honey.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "HoneyBee Regular";
-  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
+  src: url(../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Indie Flower";
-  src: url("../../assets/fonts/Indie-Flower/IndieFlower.ttf") format("truetype");
+  src: url(../../assets/fonts/Indie-Flower/IndieFlower.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Josefin Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Josefin-Sans/JosefinSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
 @font-face {
   font-family: "Ladybug Love Regular";
-  src: url("../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
+  src: url(../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Lobster', cursive;
-  src: url('../../assets/fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+@font-face {
+  font-family: "Lobster", cursive;
+  src: url(../../assets/fonts/Lobster/Lobster-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
-/* Love Font (https://www.cufonfonts.com/font/love)*/
+}
 @font-face {
   font-family: "Love";
-  src: url("../../assets/fonts/Love/Love.woff") format("woff");
+  src: url(../../assets/fonts/Love/Love.woff) format("woff");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Merriweather Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Merriweather-Sans/MerriweatherSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Peace Child (https://www.1001fonts.com/peacechild-font.html)*/
 @font-face {
   font-family: "Peace Child";
-  src: url("../../assets/fonts/Peace-Child/Peace-Child.ttf") format("truetype");
+  src: url(../../assets/fonts/Peace-Child/Peace-Child.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Press Start 2P', cursive;
-  src: url('../../assets/fonts/Press-Start-2P/PressStart2P-Regular.ttf') format('truetype');
+@font-face {
+  font-family: "Press Start 2P", cursive;
+  src: url(../../assets/fonts/Press-Start-2P/PressStart2P-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Raleway Regular', sans-serif;
-  src: url('../../assets/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Shadows Into Light', cursive;
-  src: url('../../assets/fonts/Shadows-Into-Light/ShadowsIntoLight-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
+}
 @font-face {
   font-family: "Star Jedi";
-  src: url("../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
+  src: url(../../assets/fonts/Star-Jedi/Star-Jedi/Star-Jedi.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Star Jedi Outline";
+  src: url(../../assets/fonts/Star-Jedi/Star-Jedi-Outline/Starjout.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Summerbee";
-  src: url("../assets/fonts/Summerbee/Summerbee.ttf") format("truetype");
+  src: url(../../assets/fonts/Summerbee/Summerbee.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu Regular", sans-serif;
+  src: url(../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 /* @font-face {
-  font-family: 'Ubuntu Regular', sans-serif;
-  src: url('../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+  font-family: 'Josefin Sans Regular', sans-serif;
+  src: url(../../assets/fonts/Josefin-Sans/JosefinSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* @font-face {
+  font-family: 'Merriweather Sans Regular', sans-serif;
+  src: url(../../assets/fonts/Merriweather-Sans/MerriweatherSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* @font-face {
+  font-family: 'Raleway Regular', sans-serif;
+  src: url(../../assets/fonts/Raleway/Raleway-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* @font-face {
+  font-family: 'Shadows Into Light', cursive;
+  src: url(../../assets/fonts/Shadows-Into-Light/ShadowsIntoLight-Regular.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 } */
@@ -209,245 +172,253 @@
 /* Github Button */
 @font-face {
   font-family: "Anakin Mono";
-  src: url("../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
+  src: url(../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Architects Daughter', cursive;
-  src: url('../../assets/fonts/Architects-Daughter/ArchitectsDaughter-Regular.ttf') format('truetype');
+@font-face {
+  font-family: "Architects Daughter", cursive;
+  src: url(../../assets/fonts/Architects-Daughter/ArchitectsDaughter-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Boogaloo', cursive;
-  src: url('../../assets/fonts/Boogaloo/Boogaloo-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Boogaloo", cursive;
+  src: url(../../assets/fonts/Boogaloo/Boogaloo-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
+}
 @font-face {
   font-family: "Charm";
-  src: url("../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
+  src: url(../../assets/fonts/Charm/Charm-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Enchanted Land";
-  src: url("../../assets/fonts/Enchanted-Land/Enchanted-Land.otf") format("opentype");
+  src: url(../../assets/fonts/Enchanted-Land/Enchanted-Land.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Honey";
-  src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
+  src: url(../../assets/fonts/Honey/Honey.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "HoneyBee Regular";
-  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
+  src: url(../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Indie Flower";
-  src: url("../../assets/fonts/Indie-Flower/IndieFlower.ttf") format("truetype");
+  src: url(../../assets/fonts/Indie-Flower/IndieFlower.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Josefin Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Josefin-Sans/JosefinSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
 @font-face {
   font-family: "Ladybug Love Regular";
-  src: url("../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
+  src: url(../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Lobster', cursive;
-  src: url('../../assets/fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+@font-face {
+  font-family: "Lobster", cursive;
+  src: url(../../assets/fonts/Lobster/Lobster-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
-/* Love Font (https://www.cufonfonts.com/font/love)*/
+}
 @font-face {
   font-family: "Love";
-  src: url("../../assets/fonts/Love/Love.woff") format("woff");
+  src: url(../../assets/fonts/Love/Love.woff) format("woff");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Merriweather Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Merriweather-Sans/MerriweatherSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Peace Child (https://www.1001fonts.com/peacechild-font.html)*/
 @font-face {
   font-family: "Peace Child";
-  src: url("../../assets/fonts/Peace-Child/Peace-Child.ttf") format("truetype");
+  src: url(../../assets/fonts/Peace-Child/Peace-Child.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Press Start 2P', cursive;
-  src: url('../../assets/fonts/Press-Start-2P/PressStart2P-Regular.ttf') format('truetype');
+@font-face {
+  font-family: "Press Start 2P", cursive;
+  src: url(../../assets/fonts/Press-Start-2P/PressStart2P-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Raleway Regular', sans-serif;
-  src: url('../../assets/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Shadows Into Light', cursive;
-  src: url('../../assets/fonts/Shadows-Into-Light/ShadowsIntoLight-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
+}
 @font-face {
   font-family: "Star Jedi";
-  src: url("../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
+  src: url(../../assets/fonts/Star-Jedi/Star-Jedi/Star-Jedi.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Star Jedi Outline";
+  src: url(../../assets/fonts/Star-Jedi/Star-Jedi-Outline/Starjout.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Summerbee";
-  src: url("../assets/fonts/Summerbee/Summerbee.ttf") format("truetype");
+  src: url(../../assets/fonts/Summerbee/Summerbee.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu Regular", sans-serif;
+  src: url(../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 /* @font-face {
-  font-family: 'Ubuntu Regular', sans-serif;
-  src: url('../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+  font-family: 'Josefin Sans Regular', sans-serif;
+  src: url(../../assets/fonts/Josefin-Sans/JosefinSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* @font-face {
+  font-family: 'Merriweather Sans Regular', sans-serif;
+  src: url(../../assets/fonts/Merriweather-Sans/MerriweatherSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* @font-face {
+  font-family: 'Raleway Regular', sans-serif;
+  src: url(../../assets/fonts/Raleway/Raleway-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* @font-face {
+  font-family: 'Shadows Into Light', cursive;
+  src: url(../../assets/fonts/Shadows-Into-Light/ShadowsIntoLight-Regular.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 } */
 @font-face {
   font-family: "Anakin Mono";
-  src: url("../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
+  src: url(../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Architects Daughter', cursive;
-  src: url('../../assets/fonts/Architects-Daughter/ArchitectsDaughter-Regular.ttf') format('truetype');
+@font-face {
+  font-family: "Architects Daughter", cursive;
+  src: url(../../assets/fonts/Architects-Daughter/ArchitectsDaughter-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Boogaloo', cursive;
-  src: url('../../assets/fonts/Boogaloo/Boogaloo-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Boogaloo", cursive;
+  src: url(../../assets/fonts/Boogaloo/Boogaloo-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
+}
 @font-face {
   font-family: "Charm";
-  src: url("../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
+  src: url(../../assets/fonts/Charm/Charm-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Enchanted Land";
-  src: url("../../assets/fonts/Enchanted-Land/Enchanted-Land.otf") format("opentype");
+  src: url(../../assets/fonts/Enchanted-Land/Enchanted-Land.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Honey";
-  src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
+  src: url(../../assets/fonts/Honey/Honey.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "HoneyBee Regular";
-  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
+  src: url(../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Indie Flower";
-  src: url("../../assets/fonts/Indie-Flower/IndieFlower.ttf") format("truetype");
+  src: url(../../assets/fonts/Indie-Flower/IndieFlower.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Josefin Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Josefin-Sans/JosefinSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
 @font-face {
   font-family: "Ladybug Love Regular";
-  src: url("../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
+  src: url(../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf) format("opentype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Lobster', cursive;
-  src: url('../../assets/fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+@font-face {
+  font-family: "Lobster", cursive;
+  src: url(../../assets/fonts/Lobster/Lobster-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
-/* Love Font (https://www.cufonfonts.com/font/love)*/
+}
 @font-face {
   font-family: "Love";
-  src: url("../../assets/fonts/Love/Love.woff") format("woff");
+  src: url(../../assets/fonts/Love/Love.woff) format("woff");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Merriweather Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Merriweather-Sans/MerriweatherSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Peace Child (https://www.1001fonts.com/peacechild-font.html)*/
 @font-face {
   font-family: "Peace Child";
-  src: url("../../assets/fonts/Peace-Child/Peace-Child.ttf") format("truetype");
+  src: url(../../assets/fonts/Peace-Child/Peace-Child.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Press Start 2P', cursive;
-  src: url('../../assets/fonts/Press-Start-2P/PressStart2P-Regular.ttf') format('truetype');
+@font-face {
+  font-family: "Press Start 2P", cursive;
+  src: url(../../assets/fonts/Press-Start-2P/PressStart2P-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Raleway Regular', sans-serif;
-  src: url('../../assets/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Shadows Into Light', cursive;
-  src: url('../../assets/fonts/Shadows-Into-Light/ShadowsIntoLight-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
+}
 @font-face {
   font-family: "Star Jedi";
-  src: url("../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
+  src: url(../../assets/fonts/Star-Jedi/Star-Jedi/Star-Jedi.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Star Jedi Outline";
+  src: url(../../assets/fonts/Star-Jedi/Star-Jedi-Outline/Starjout.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Summerbee";
-  src: url("../assets/fonts/Summerbee/Summerbee.ttf") format("truetype");
+  src: url(../../assets/fonts/Summerbee/Summerbee.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu Regular", sans-serif;
+  src: url(../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 /* @font-face {
-  font-family: 'Ubuntu Regular', sans-serif;
-  src: url('../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+  font-family: 'Josefin Sans Regular', sans-serif;
+  src: url(../../assets/fonts/Josefin-Sans/JosefinSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* @font-face {
+  font-family: 'Merriweather Sans Regular', sans-serif;
+  src: url(../../assets/fonts/Merriweather-Sans/MerriweatherSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* @font-face {
+  font-family: 'Raleway Regular', sans-serif;
+  src: url(../../assets/fonts/Raleway/Raleway-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* @font-face {
+  font-family: 'Shadows Into Light', cursive;
+  src: url(../../assets/fonts/Shadows-Into-Light/ShadowsIntoLight-Regular.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 } */
@@ -488,624 +459,6 @@
 
 .python-badge {
   color: #4b8bbe;
-}
-
-/* Body */
-/* Header */
-/* Logos */
-/* Gallery */
-/* Skills and Hobbies */
-/* Footer */
-/* Padding Mixins */
-/* Margin Mixins */
-/* Height/Width */
-/* Link */
-/* Header */
-/* Text */
-/* Containers */
-/* Glass */
-/* Footer */
-/* Borders */
-@font-face {
-  font-family: "Anakin Mono";
-  src: url("../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Architects Daughter', cursive;
-  src: url('../../assets/fonts/Architects-Daughter/ArchitectsDaughter-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Boogaloo', cursive;
-  src: url('../../assets/fonts/Boogaloo/Boogaloo-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Charm";
-  src: url("../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Enchanted Land";
-  src: url("../../assets/fonts/Enchanted-Land/Enchanted-Land.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Honey";
-  src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "HoneyBee Regular";
-  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Indie Flower";
-  src: url("../../assets/fonts/Indie-Flower/IndieFlower.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Josefin Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Josefin-Sans/JosefinSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Ladybug Love Regular";
-  src: url("../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Lobster', cursive;
-  src: url('../../assets/fonts/Lobster/Lobster-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Love Font (https://www.cufonfonts.com/font/love)*/
-@font-face {
-  font-family: "Love";
-  src: url("../../assets/fonts/Love/Love.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Merriweather Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Merriweather-Sans/MerriweatherSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Peace Child (https://www.1001fonts.com/peacechild-font.html)*/
-@font-face {
-  font-family: "Peace Child";
-  src: url("../../assets/fonts/Peace-Child/Peace-Child.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Press Start 2P', cursive;
-  src: url('../../assets/fonts/Press-Start-2P/PressStart2P-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Raleway Regular', sans-serif;
-  src: url('../../assets/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Shadows Into Light', cursive;
-  src: url('../../assets/fonts/Shadows-Into-Light/ShadowsIntoLight-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Star Jedi";
-  src: url("../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Summerbee";
-  src: url("../assets/fonts/Summerbee/Summerbee.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Ubuntu Regular', sans-serif;
-  src: url('../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Padding Mixins */
-/* Margin Mixins */
-/* Height/Width */
-/* Link */
-/* Header */
-/* Text */
-/* Containers */
-/* Glass */
-/* Footer */
-/* Borders */
-/* Button */
-.button-link {
-  padding: 10px;
-  text-decoration: none;
-}
-
-/* Github Button */
-@font-face {
-  font-family: "Anakin Mono";
-  src: url("../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Architects Daughter', cursive;
-  src: url('../../assets/fonts/Architects-Daughter/ArchitectsDaughter-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Boogaloo', cursive;
-  src: url('../../assets/fonts/Boogaloo/Boogaloo-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Charm";
-  src: url("../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Enchanted Land";
-  src: url("../../assets/fonts/Enchanted-Land/Enchanted-Land.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Honey";
-  src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "HoneyBee Regular";
-  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Indie Flower";
-  src: url("../../assets/fonts/Indie-Flower/IndieFlower.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Josefin Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Josefin-Sans/JosefinSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Ladybug Love Regular";
-  src: url("../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Lobster', cursive;
-  src: url('../../assets/fonts/Lobster/Lobster-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Love Font (https://www.cufonfonts.com/font/love)*/
-@font-face {
-  font-family: "Love";
-  src: url("../../assets/fonts/Love/Love.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Merriweather Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Merriweather-Sans/MerriweatherSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Peace Child (https://www.1001fonts.com/peacechild-font.html)*/
-@font-face {
-  font-family: "Peace Child";
-  src: url("../../assets/fonts/Peace-Child/Peace-Child.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Press Start 2P', cursive;
-  src: url('../../assets/fonts/Press-Start-2P/PressStart2P-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Raleway Regular', sans-serif;
-  src: url('../../assets/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Shadows Into Light', cursive;
-  src: url('../../assets/fonts/Shadows-Into-Light/ShadowsIntoLight-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Star Jedi";
-  src: url("../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Summerbee";
-  src: url("../assets/fonts/Summerbee/Summerbee.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Ubuntu Regular', sans-serif;
-  src: url('../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Anakin Mono";
-  src: url("../../assets/fonts/Anakin-Mono/Anakin-Mono.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Architects Daughter', cursive;
-  src: url('../../assets/fonts/Architects-Daughter/ArchitectsDaughter-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Boogaloo', cursive;
-  src: url('../../assets/fonts/Boogaloo/Boogaloo-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Charm";
-  src: url("../../assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Enchanted Land";
-  src: url("../../assets/fonts/Enchanted-Land/Enchanted-Land.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Honey";
-  src: url("../../assets/fonts/Honey/Honey.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "HoneyBee Regular";
-  src: url("../../assets/fonts/Honey-Bee-Reg/HoneyBee-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Indie Flower";
-  src: url("../../assets/fonts/Indie-Flower/IndieFlower.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Josefin Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Josefin-Sans/JosefinSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Ladybug Love Regular";
-  src: url("../../assets/fonts/Ladybug-Love/ladybug-love-demo.regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Lobster', cursive;
-  src: url('../../assets/fonts/Lobster/Lobster-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Love Font (https://www.cufonfonts.com/font/love)*/
-@font-face {
-  font-family: "Love";
-  src: url("../../assets/fonts/Love/Love.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Merriweather Sans Regular', sans-serif;
-  src: url('../../assets/fonts/Merriweather-Sans/MerriweatherSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Peace Child (https://www.1001fonts.com/peacechild-font.html)*/
-@font-face {
-  font-family: "Peace Child";
-  src: url("../../assets/fonts/Peace-Child/Peace-Child.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Press Start 2P', cursive;
-  src: url('../../assets/fonts/Press-Start-2P/PressStart2P-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Raleway Regular', sans-serif;
-  src: url('../../assets/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Shadows Into Light', cursive;
-  src: url('../../assets/fonts/Shadows-Into-Light/ShadowsIntoLight-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Star Jedi";
-  src: url("../../assets/fonts/Star-Jedi/Star-Jedi.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Summerbee";
-  src: url("../assets/fonts/Summerbee/Summerbee.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: 'Ubuntu Regular', sans-serif;
-  src: url('../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-/* Projects Fonts and Colours */
-.fa-skill-badge {
-  padding-top: 0;
-  padding-right: 10px;
-  padding-bottom: 0px;
-  padding-left: 10px;
-  color: #376c77;
-  font-size: 60px;
-}
-
-.fa-small-skill-badge {
-  padding-top: 0;
-  padding-right: 1px;
-  padding-bottom: 0px;
-  padding-left: 1px;
-  color: #376c77;
-  font-size: 40px;
-}
-
-.html-badge {
-  color: #f16529;
-}
-
-.css-badge {
-  color: #2965f1;
-}
-
-.sass-badge {
-  color: #Cd6799;
-}
-
-.js-badge {
-  color: #f0db4f;
-}
-
-.python-badge {
-  color: #4b8bbe;
-}
-
-/* Body */
-html {
-  margin: 0 auto;
-  padding: 0;
-}
-
-body {
-  margin: 0 auto;
-  min-height: 100vh;
-  font-family: "Josefin Sans Regular", sans-serif;
-}
-
-/* Header */
-.cv-header {
-  padding-top: 50px;
-  padding-right: 40px;
-  padding-bottom: 50px;
-  padding-left: 40px;
-  background-color: #f2f7f8;
-  text-align: center;
-  line-height: 1em;
-}
-
-.info-column,
-.pic-column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.hero-text,
-.hero-info,
-.download {
-  text-align: left;
-}
-
-.hero-info,
-.hero-text {
-  margin-bottom: 50px;
-}
-
-.hero-text h2 {
-  font-size: 100px;
-  line-height: normal;
-  margin-bottom: 20px;
-}
-
-.hero-text p {
-  opacity: 0.7;
-  font-size: 20px;
-  line-height: 1.3;
-}
-
-.profile-image {
-  border-radius: 120%;
-  max-width: 60%;
-}
-
-.hero-image {
-  padding-left: 100px;
-  max-width: 75%;
-}
-
-.hero-info h2 {
-  margin-bottom: 40px;
-}
-
-.hero-info ul {
-  list-style: none;
-}
-
-.hero-info ul li {
-  opacity: 0.7;
-  font-size: 24px;
-  color: #6ba0ab;
-  margin-bottom: 15px;
-}
-
-.hero-info ul li span {
-  color: #376c77;
-  display: inline-block;
-  min-width: 220px;
-}
-
-.hero-info ul li:last-child {
-  margin-bottom: 0;
-}
-
-.download-btn {
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 15px;
-  padding-left: 10px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 12px;
-  min-width: 213px;
-  min-height: 20px;
-  text-align: center;
-  position: relative;
-  background-color: white;
-  margin-right: 10px;
-  color: black;
-  font-weight: 700;
-}
-
-/* Social Section */
-.social-section {
-  background: #f9f9f9;
-  padding: 30px 80px;
-}
-
-.social-section .social-links {
-  display: inline-block;
-  background: #f9f9f9;
-  position: relative;
-  z-index: 5;
-}
-
-.social-section .social-links a {
-  color: #484848;
-  font-size: 36px;
-  margin-right: 40px;
-}
-
-.social-section .social-link-warp {
-  position: relative;
-}
-
-.social-section .social-link-warp h2 {
-  display: inline-block;
-  float: right;
-  font-weight: 400;
-  padding-left: 30px;
-  background: #f9f9f9;
-  position: relative;
-  z-index: 5;
-}
-
-.social-section .social-link-warp:after {
-  position: absolute;
-  content: "";
-  width: 50%;
-  height: 2px;
-  left: 23%;
-  top: 50%;
-  margin-top: 1px;
-  background: #cbcbcb;
-}
-
-/* Footer */
-.cv-footer {
-  width: 100%;
-  box-sizing: border-box;
-  bottom: 0;
-  margin-top: 10px;
-  text-align: center;
-  font-weight: bold;
-  background-color: #f2f7f8;
-  font-family: "Josefin Sans Regular", sans-serif;
-  color: #6ba0ab;
-}
-
-.cv-credits,
-.cv-copyright,
-.cv-powered {
-  opacity: 0.7;
-  font-size: 12px;
-  line-height: 1.3em;
 }
 
 /* Body */
@@ -1244,4 +597,12 @@ body {
 }
 .project-footer a:active {
   color: #ffb81c;
+}
+
+.fa-envelope:hover,
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-free-code-camp:hover,
+.fa-codepen:hover {
+  color: #e03c31;
 }/*# sourceMappingURL=styles.css.map */

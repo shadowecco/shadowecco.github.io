@@ -104,7 +104,7 @@ textarea,
 
 .array-button,
 .clear-button {
-  @include borall(solid, 1px, $night);
+  @include borall(solid, 1px, $light);
   @include margin-allround(20px, 20px, 0px, 0px);
   width: 16%;
   background-color: $lavendar;
@@ -118,8 +118,9 @@ textarea,
   border-radius: 10px;
 }
 
-.array-button:hover {
-  background-color: $dark-lavendar;
+.array-button:hover,
+.clear-button:hover {
+  background-color: $darklavendar;
 }
 
 #button-container {
@@ -142,4 +143,14 @@ textarea,
 .credits a,
 a:visited {
   color: $light;
+}
+
+//Awesome Font Logo Hover
+
+.fa-envelope:hover,
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-free-code-camp:hover,
+.fa-codepen:hover {
+  color: $darkerlavendar;
 }

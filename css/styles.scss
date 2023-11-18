@@ -322,3 +322,25 @@ body {
   @include muted-text;
   font-size: 15px;
 }
+
+//Awesome Font Logo Hover
+
+.fa-envelope:hover {
+  color: $minion;
+}
+
+.fa-linkedin:hover {
+  color: $night;
+}
+
+.fa-github:hover {
+  color: $minion;
+}
+
+.fa-free-code-camp:hover {
+  color: $night;
+}
+
+.fa-codepen:hover {
+  color: $minion;
+}

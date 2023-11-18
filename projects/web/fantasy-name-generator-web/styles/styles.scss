@@ -31,7 +31,7 @@ body::before {
 .projectgit {
   @include projgitbut();
   @include gitbutcol($light, $light);
-  @include projgitcss($royalpurple, $charm);
+  @include projgitcss(tranparent, $charm);
 }
 
 .projectgit:hover {
@@ -47,12 +47,18 @@ body::before {
 /* Buttons */
 
 .gen-btn {
-  @include borall(solid, 1px, $night);
+  @include borall(solid, 1px, $light);
   font-family: $charm;
+  background-color: $transparent;
+  color: $light;
   padding: 10px;
   border-radius: 12px;
   font-weight: bold;
   font-size: 40px;
+}
+
+.gen-btn:hover {
+  background-color: $magic;
 }
 
 .btn-primary-spacing {
@@ -86,7 +92,9 @@ body::before {
   padding-bottom: 20px;
 }
 
-
+.reset-icon:hover {
+  color: $magic;
+}
 
 
 /* Links */
@@ -112,4 +120,14 @@ a:visited {
 .credits a,
 a:visited {
   color: $light;
+}
+
+//Awesome Font Logo Hover
+
+.fa-envelope:hover,
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-free-code-camp:hover,
+.fa-codepen:hover {
+  color: $magic;
 }

@@ -1416,7 +1416,7 @@ header > h1 {
 
 .user-choice-icon:hover,
 .reset-icon:hover {
-  color: red;
+  color: rgb(37, 30, 30);
 }
 
 .computer-choices {
@@ -1431,10 +1431,6 @@ header > h1 {
   margin-bottom: 20px;
   margin-left: 25px;
   display: inline-block;
-}
-
-.selected {
-  color: rgb(37, 30, 30) !important;
 }
 
 /* Reset */

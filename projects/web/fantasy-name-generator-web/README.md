@@ -1,5 +1,5 @@
 Added: 29/08/22
-Last updated: 20/03/23
+Last updated: 18/11/23
 
 # Fantasy Name Generator
 

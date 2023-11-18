@@ -124,7 +124,7 @@ header>h1 {
 
 .user-choice-icon:hover,
 .reset-icon:hover {
-  color: red;
+  color: $selected;
 }
 
 .computer-choices {
@@ -136,10 +136,6 @@ header>h1 {
 .choice-icon {
   @include margin-allround(0px, 25px, 20px, 25px);
   display: inline-block;
-}
-
-.selected {
-  color: $selected !important;
 }
 
 /* Reset */

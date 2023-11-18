@@ -22,13 +22,9 @@ $('.projectgit').click(function () {
 // DOM Elements
 const userScore = document.getElementById('user-score');
 const userChoice = document.getElementById('user-choice');
-const userChoiceText = document.getElementById('user-choice-text');
 
 const computerScore = document.getElementById('computer-score');
 const computerChoice = document.getElementById('computer-choice');
-const computerChoiceText = document.getElementById('computer-choice-text');
-
-const resultText = document.getElementById('results');
 
 const userRock = document.getElementById('user-r');
 const userPaper = document.getElementById('user-p');
@@ -39,7 +35,6 @@ const computerPaper = document.getElementById('computer-p');
 const computerScissors = document.getElementById('computer-s');
 
 const allGameIcons = document.querySelectorAll('.far');
-
 
 //Which icon beats which in the game
 const choices = {
@@ -71,6 +66,25 @@ function resetAll() {
   resetSelected();
 }
 
+// Passing player selection value and styling icons
+function select(userChoice) {
+  checkResult(userChoice)
+  // Add 'selected' styling & userChoice
+  switch (userChoice) {
+    case 'rock':
+      $('.user-choice-text').text(' --- Rock');
+      break;
+    case 'paper':
+      $('.user-choice-text').text(' --- Paper');
+      break;
+    case 'scissors':
+      $('.user-choice-text').text(' --- Scissors');
+      break;
+    default:
+      break;
+  }
+}
+
 // Random computer choice
 function computerRandomChoice() {
   const computerChoiceNumber = Math.floor(Math.random() * 3);
@@ -90,13 +104,13 @@ function displayComputerChoice(computerRanChoice) {
   var computerRanChoice = computerRandomChoice();
   switch (computerRanChoice) {
     case 'rock':
-      computerChoiceText.textContent = ' --- Rock';
+      $('.computer-choice-text').text(' --- Rock');
       break;
     case 'paper':
-      computerChoiceText.textContent = ' --- Paper';
+      $('.computer-choice-text').text(' --- Paper');
       break;
     case 'scissors':
-      computerChoiceText.textContent = ' --- Scissors';
+      $('.computer-choice-text').text(' --- Scissors');
       break;
     default:
       break;
@@ -105,13 +119,11 @@ function displayComputerChoice(computerRanChoice) {
 
 // Check result, increase scores, update resultText
 function updateScore(userChoice) {
-  userRock.classList.remove('draw', 'win', 'lose');
-  userPaper.classList.remove('draw', 'win', 'lose');
-  userScissors.classList.remove('draw', 'win', 'lose');
-  computerRock.classList.remove('draw', 'win', 'lose');
-  computerPaper.classList.remove('draw', 'win', 'lose');
-  computerScissors.classList.remove('draw', 'win', 'lose');
+  allGameIcons.forEach((icon) => {
+    icon.classList.remove('draw', 'win', 'lose');
+  });
 
+  //If it's draw
   if (userChoice === computerRanChoice) {
     switch (userChoice) {
       case 'rock':
@@ -136,7 +148,7 @@ function updateScore(userChoice) {
         computerScissors.classList.add('draw');
         break;
     }
-    resultText.textContent = 'Draw';
+    $('.results').text('Draw');
   } else {
     const choice = choices[userChoice];
     if (choice.defeats.indexOf(computerRanChoice) > -1) {
@@ -164,7 +176,7 @@ function updateScore(userChoice) {
           computerScissors.classList.add('lose');
           break;
       }
-      resultText.textContent = 'You Won!';
+      $('.results').text('You Won!');
       userScoreNumber++;
       userScore.textContent = userScoreNumber;
     } else {
@@ -192,7 +204,8 @@ function updateScore(userChoice) {
           computerScissors.classList.add('win');
           break;
       }
-      resultText.textContent = 'You Lost!';
+
+      $('.results').text('You Lost!');
       computerScoreNumber++;
       computerScore.textContent = computerScoreNumber;
     }
@@ -205,23 +218,4 @@ function checkResult(userChoice) {
   computerRandomChoice();
   displayComputerChoice();
   updateScore(userChoice);
-}
-
-// Passing player selection value and styling icons
-function select(userChoice) {
-  checkResult(userChoice)
-  // Add 'selected' styling & userChoice
-  switch (userChoice) {
-    case 'rock':
-      userChoiceText.textContent = ' --- Rock';
-      break;
-    case 'paper':
-      userChoiceText.textContent = ' --- Paper';
-      break;
-    case 'scissors':
-      userChoiceText.textContent = ' --- Scissors';
-      break;
-    default:
-      break;
-  }
 }
